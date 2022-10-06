@@ -1,0 +1,11 @@
+label {
+    color:red;
+}
+
+#passwordConfirmInput {
+    background-color: yellow;
+}
+
+.label.tableItems {
+    color: green;
+}

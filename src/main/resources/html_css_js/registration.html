@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<form action="index.php" method="get" target="_blank">
+
+    <table>
+        <tr>
+            <td>
+                <label for="firstNameInput" class="label tableItems">First Name:</label>
+            </td>
+            <td>
+                <input type="text" id="firstNameInput" name="input1" onfocusout="validateForm('firstNameInput');"/><br/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lastNameInput" class="label tableItems">Last Name:</label>
+            </td>
+            <td>
+                <input type="text" id="lastNameInput" name="input2"/><br/>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <label for="usernameInput" class="label">Username:</label>
+    <input type="text" id="usernameInput" name="input7"/><br/>
+
+    <label for="passwordInput">Password:</label>
+    <input type="password" id="passwordInput" name="input3"/><br/>
+
+    <label for="passwordConfirmInput">ConfirmPassword:</label>
+    <input type="password" id="passwordConfirmInput" name="input6"/><br/>
+
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" name="input4"/><br/>
+
+    <label for="fileInput">Profile picture:</label>
+    <input type="file" id="fileInput" name="input5"/><br/>
+
+    <input type="radio" id="sexInput1" name="radio1"/>
+    <label for="sexInput1">Female</label><br/>
+    <input type="radio" id="sexInput2" name="radio1"/>
+    <label for="sexInput2">Male</label><br/>
+    <input type="radio" id="sexInput3" name="radio1"/>
+    <label for="sexInput3">Other</label><br/>
+
+    <label for="fileInput">About yourself:</label>
+    <textarea id="textareaInput" name="txt1"></textarea><br/>
+
+    <input type="checkbox" id="subscribeNews" name="chk1"/>
+    <label for="subscribeNews">Subscribe to newsletter</label><br/>
+
+    <button type="submit" id="submitForm" name="submit1">Submit the Data</button>
+    <button type="reset" id="resetForm" name="reset1" >Reset the Data</button><br/>
+    <input type="button" value="Validate ME!" onclick="validateFormAll();"/> <br/>
+    <div id="errorText">
+
+    </div>
+</form>
+</body>
+</html>
