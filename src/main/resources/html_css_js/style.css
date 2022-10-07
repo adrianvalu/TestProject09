@@ -1,11 +1,21 @@
-label {
+
+
+.label.password {
     color:red;
+    font-weight: bold;
+    font-style: italic;
 }
 
-#passwordConfirmInput {
+#passwordConfirmInput,#passwordInput {
     background-color: yellow;
 }
 
 .label.tableItems {
     color: green;
+    font-weight: bold;
+}
+
+label {
+    color:blue;
+
 }
