@@ -4,6 +4,10 @@
   <groupId>com.company.project</groupId>
   <artifactId>TestProject09</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - TestProject09</name>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <name>Archetype - TestProject09</name>
   <url>http://maven.apache.org</url>
 </project>
