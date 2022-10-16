@@ -22,6 +22,25 @@ public class NewMain {
         System.out.println("The volume for a torus with smallRadius = " + r1 + " and bigRadius = " + r2 + " is "
                 + computeVolume(r1,r2));
 
+        //Homework 2
+
+        Author author1 = new Author();
+        author1.name = "Jane Doe";
+        author1.email = "janedoe@gmail.com";
+
+        Author author2 = new Author("John Doe", "joedoe@gmail.com");
+
+        Book book1 = new Book();
+        book1.name = "Sunrise";
+        book1.year = 1985;
+        book1.author = author1;
+        book1.price = 58;
+
+        Book book2 = new Book("Sunset", 1978, author2, 64);
+
+
+        System.out.println("Book " + book1.name + "(" + book1.price + " RON), by " + author1.name + ", published in " + book1.year + ".");
+        System.out.println("Book " + book2.name + "(" + book2.price + " RON), by " + author2.name + ", published in " + book2.year + ".");
     }
 
 }
