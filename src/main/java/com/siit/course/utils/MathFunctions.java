@@ -49,9 +49,24 @@ public class MathFunctions {
 //        return (n % 2 == 1) ? true : false;
     }
 
-    // Square compute volume
+    // Cube compute volume
     public static double computeVolume(int vertex) {
         return Math.pow(vertex, 3);
+    }
+
+    // Sphere compute volume
+    public static double computeVolume(long radius) {
+        return 4*Math.PI*Math.pow(radius, 3)/3;
+    }
+
+    // Pyramid compute volume
+    public static double computeVolume(double baseArea, int height) {
+        return baseArea*height/3;
+    }
+
+    // Torus compute volume
+    public static double computeVolume(int smallRadius, int bigRadius) {
+        return Math.PI*Math.pow(smallRadius, 2)*2*Math.PI*bigRadius;
     }
 
 }
