@@ -39,8 +39,8 @@ public class NewMain {
         Book book2 = new Book("Sunset", 1978, author2, 64);
 
 
-        System.out.println("Book " + book1.name + "(" + book1.price + " RON), by " + author1.name + ", published in " + book1.year + ".");
-        System.out.println("Book " + book2.name + "(" + book2.price + " RON), by " + author2.name + ", published in " + book2.year + ".");
+        System.out.println("Book " + book1.name + "(" + book1.getPrice() + " RON), by " + author1.name + ", published in " + book1.year + ".");
+        System.out.println("Book " + book2.name + "(" + book2.getPrice() + " RON), by " + author2.name + ", published in " + book2.year + ".");
     }
 
 }

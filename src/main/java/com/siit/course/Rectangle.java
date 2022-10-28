@@ -1,9 +1,13 @@
 package com.siit.course;
 
-public class Rectangle {
+import lombok.Getter;
+import lombok.Setter;
 
-    int height;
-    int width;
+@Getter @Setter
+public class Rectangle extends Shape{
+
+    private int height;
+    private int width;
 
     public Rectangle(int height, int width) {
         this.height = height;
@@ -35,5 +39,16 @@ public class Rectangle {
         System.out.println("Area is " + computeArea());
         System.out.println("Perimeter is " + computePerimeter());
         System.out.println("Diagonal is " + computeDiagonal());
+    }
+
+    public Rectangle(String color, int height, int width) {
+        super(color);
+        this.height = height;
+        this.width = width;
+    }
+
+    @Override
+    public void draw() {
+        super.draw("RECTANGLE");
     }
 }

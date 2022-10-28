@@ -1,6 +1,4 @@
 package com.siit.course;
-import com.siit.course.utils.Circle;
-import org.w3c.dom.css.Rect;
 
 import java.awt.*;
 import java.util.Date;
@@ -80,11 +78,11 @@ public class Course04 {
         System.out.println("The volume for a cube with vertex = " + v + " is " + computeVolume(v));
         Person p1 = new Person();
         Person p2 = new Person();
-        p1.name = "Alex";
-        p2.name = "Silvia";
+        p1.changeName("Alex");
+        p2.changeName("Silvia");
         Shape s1 = new Shape();
-        s1.colorShape("blue");
-        System.out.println("The shape has color " + s1.color);
+        s1.setColor("blue");
+        System.out.println("The shape has color " + s1.getColor());
 
         Rectangle r1 = new Rectangle(10, 6);
         r1.printRectangle();
@@ -132,7 +130,7 @@ public class Course04 {
         );
         car1.accelerate();
         car1.paintCar(Color.BLUE);
-        System.out.println("Car " + car1.model + " with brand " + car1.brand.name);
+        System.out.println("Car " + car1.getModel() + " with brand " + car1.getBrand().getName());
 
     }
 

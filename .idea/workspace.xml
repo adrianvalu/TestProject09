@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="course4 Java methods homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Book.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="course4 Java methods homework2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/GeneralUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665929148727</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="course4 Java methods homework2">
+      <created>1665935693592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665935693592</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +189,7 @@
     <MESSAGE value="adding 2 java_intro homeworks." />
     <MESSAGE value="course4" />
     <MESSAGE value="course4 Java methods homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="course4 Java methods homework" />
+    <MESSAGE value="course4 Java methods homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="course4 Java methods homework2" />
   </component>
 </project>
