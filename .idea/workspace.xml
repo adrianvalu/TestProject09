@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="course4 Java methods homework2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/GeneralUtils.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Course05 - Java Inheritance, overriding, polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Browsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/IShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +22,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -168,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665935693592</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&#10;Course05 - Java Inheritance, overriding, polymorphism">
+      <created>1666977149542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666977149542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +186,7 @@
     <MESSAGE value="course4" />
     <MESSAGE value="course4 Java methods homework" />
     <MESSAGE value="course4 Java methods homework2" />
-    <option name="LAST_COMMIT_MESSAGE" value="course4 Java methods homework2" />
+    <MESSAGE value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
   </component>
 </project>

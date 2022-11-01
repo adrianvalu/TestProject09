@@ -25,5 +25,6 @@ public class Shape {
     protected void shapePrivateMethod() {
         System.out.println("THIS IS A METHOD JUST FOR SHAPE");
     }
+//public abstract void doAnotherThing();
 
 }
