@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Course05 - Java Inheritance, overriding, polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/IShape.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Course06 - Interfaces, Collections">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Appliances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/ConferenceRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/OfficeSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Toilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/Course07Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +62,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NewMain">
+  <component name="RunManager" selected="Application.CourseMain">
+    <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siit.course.Building" />
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.siit.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -85,10 +110,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Course07Test.computeRectangleAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Course07Test" />
+      <option name="METHOD_NAME" value="computeRectangleAreaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseApp" />
+      <item itemvalue="Application.Building" />
+      <item itemvalue="Application.CourseMain" />
+      <item itemvalue="Application.NewMain" />
+      <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewMain" />
         <item itemvalue="Application.CourseMain" />
+        <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
+        <item itemvalue="Application.Building" />
+        <item itemvalue="Application.NewMain" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666977149542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;Course06 - Interfaces, Collections">
+      <created>1667324904724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667324904724</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +238,7 @@
     <MESSAGE value="course4 Java methods homework" />
     <MESSAGE value="course4 Java methods homework2" />
     <MESSAGE value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
+    <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Course06 - Interfaces, Collections" />
   </component>
 </project>
