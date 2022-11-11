@@ -216,6 +216,5 @@ public class Course06 {
         facultyOffer.put("REAL", courses01);
 
 //        HashMap<Integer, HashMap<String, Integer>> myHashmap = new HashMap<>();
-
     }
 }

@@ -4,7 +4,8 @@ package com.siit.course;
 import static com.siit.course.Course04.runCourseCode4;
 import static com.siit.course.Course05.*;
 import static com.siit.course.Course06.runCourse06;
-import static com.siit.course.Building.runHomework;
+import static com.siit.course.Course07.*;
+//import static com.siit.course.Building.runHomework;
 
 public class CourseMain {
     public static void main(String[] args) {
@@ -12,7 +13,13 @@ public class CourseMain {
 //        runCourseCode4();
         //runCourse05(args);
         //runCourse06();
-        runHomework();
+        //runHomework();
+        try {
+            runCourse07(args);
+        }
+        catch (ArrayIndexOutOfBoundsException aob) {
+            System.out.println(aob.getMessage());
+        }
 
     }
 }

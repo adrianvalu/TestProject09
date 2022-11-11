@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Course06 - Interfaces, Collections">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Appliances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Java Building Homework">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/ConferenceRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/OfficeSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Toilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CustomCourseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/CalculatorTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/test/Course07Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667324904724</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&#10;Java Building Homework">
+      <created>1667943843876</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667943843876</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +241,7 @@
     <MESSAGE value="course4 Java methods homework2" />
     <MESSAGE value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
     <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Course06 - Interfaces, Collections" />
+    <MESSAGE value="&#10;Java Building Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Java Building Homework" />
   </component>
 </project>

@@ -63,8 +63,13 @@ public class Course05 {
         Triangle t1 = new Triangle(10, 20, 30);
         t1.setColor("yellow");
         t1.draw();
-        Triangle t2 = new Triangle(24, 36, 57, "red");
-        t2.draw();
+        Triangle t2 = null;
+        try {
+            t2 = new Triangle(24, 36, 57, "red");
+            t2.draw();
+        } catch (CustomCourseException e) {
+            System.out.println(e.getMessage());
+        }
 
         Circle circle1 = new Circle(5);
         circle1.setColor("blue");
@@ -76,8 +81,14 @@ public class Course05 {
         sq1.draw();
         System.out.println(sq1);
 
-        Shape t3 = new Triangle(17, 45, 62, "white");
-        t3.draw();
+        Shape t3 = null;
+        try {
+            t3 = new Triangle(17, 45, 62, "white");
+            t3.draw();
+        } catch (CustomCourseException e) {
+            System.out.println(e.getMessage());
+        }
+
         Shape r2 = new Rectangle("red", 45, 66);
         r2.draw();
 

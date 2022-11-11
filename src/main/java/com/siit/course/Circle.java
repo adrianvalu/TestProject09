@@ -9,10 +9,17 @@ public class Circle extends Shape {
     private int radius;
 
     public Circle(int radius) {
-        this.radius = radius;
+        setRadius(radius);
     }
 
     public Circle() {
+    }
+
+    public void setRadius(int radius) throws IllegalArgumentException {
+        if (radius < 0) {
+            throw new IllegalArgumentException("The radius is " + radius + " but the radius should be a positive number!!!");
+        }
+        this.radius = radius;
     }
 
     public double getArea() {

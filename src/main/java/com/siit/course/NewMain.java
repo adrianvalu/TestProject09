@@ -15,12 +15,12 @@ public class NewMain {
         double b = 4.2;
         int h = 9;
         System.out.println("The volume for a pyramid with baseArea = " + b + " and height = " + h + " is "
-                + computeVolume(b,h));
+                + computeVolume(b, h));
 
         int r1 = 9;
         int r2 = 12;
         System.out.println("The volume for a torus with smallRadius = " + r1 + " and bigRadius = " + r2 + " is "
-                + computeVolume(r1,r2));
+                + computeVolume(r1, r2));
 
         //Homework 2
 
@@ -42,5 +42,4 @@ public class NewMain {
         System.out.println("Book " + book1.name + "(" + book1.getPrice() + " RON), by " + author1.name + ", published in " + book1.year + ".");
         System.out.println("Book " + book2.name + "(" + book2.getPrice() + " RON), by " + author2.name + ", published in " + book2.year + ".");
     }
-
 }
