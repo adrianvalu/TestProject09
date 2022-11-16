@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Java Building Homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CustomCourseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Course07Test.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="Course07 - Exceptions, JUnit">
+      <change afterPath="$PROJECT_DIR$/myFirstSuiteRun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/ClassActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/MyFirstTestNGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlSuiteWithParamters.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/Course07Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Course07Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +53,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CourseMain">
-    <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siit.course.Building" />
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.siit.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -79,28 +70,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siit.course.CourseMain" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.siit.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siit.course.NewMain" />
+    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.siit.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="additionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,19 +99,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/myFirstSuiteRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlSuiteWithParamters.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="Application.Building" />
-      <item itemvalue="Application.CourseMain" />
-      <item itemvalue="Application.NewMain" />
+      <item itemvalue="JUnit.CalculatorTest.additionTest" />
       <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
+      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CourseMain" />
+        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
+        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
         <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
-        <item itemvalue="Application.Building" />
-        <item itemvalue="Application.NewMain" />
+        <item itemvalue="JUnit.CalculatorTest.additionTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667943843876</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Course07 - Exceptions, JUnit">
+      <created>1668169459206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668169459206</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +255,7 @@
     <MESSAGE value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
     <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
     <MESSAGE value="&#10;Java Building Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Java Building Homework" />
+    <MESSAGE value="Course07 - Exceptions, JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course07 - Exceptions, JUnit" />
   </component>
 </project>

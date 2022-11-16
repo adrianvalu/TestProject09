@@ -13,11 +13,11 @@ public class Course07 {
 
     public static void runCourse07(String[] args) {
 //        infiniteLoop(0);
-        if (args.length < 1) {
+     /*   if (args.length < 1) {
             throw new IllegalArgumentException("This is an exception");
         }
         System.out.println(args[0]);
-        System.out.println("Course 07");
+        System.out.println("Course 07");*/
 
         Circle c1 = new Circle(5);
         c1.printCircle();
@@ -32,7 +32,7 @@ public class Course07 {
         try {
             Circle c2 = new Circle(5);
             c2.printCircle();
-//            System.out.println(args[100]);
+            System.out.println(args[100]);
         }
         catch(IllegalArgumentException ex) {
             System.out.println(ex.getMessage());

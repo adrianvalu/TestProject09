@@ -1,3 +1,4 @@
+
 import com.siit.course.Circle;
 import com.siit.course.Person;
 import com.siit.course.Rectangle;
@@ -7,7 +8,7 @@ import org.junit.*;
 public class Course07Test {
 
     @BeforeClass
-    public static void beforeAll(){
+    public static void beforeAll() {
         System.out.println("This will run only once before all tests in the class!!");
     }
 
@@ -33,7 +34,7 @@ public class Course07Test {
     }
 
     @Test
-    public void checkIfPersonIsHungryTest(){
+    public void checkIfPersonIsHungryTest() {
         Person p = new Person(35, 'M', "Alex", 171, 71, true);
         Assert.assertTrue("Person is not hungry when it should be!", p.isHungry());
         p.eat();
@@ -48,7 +49,7 @@ public class Course07Test {
     }
 
     @After
-    public void afterTest(){
+    public void afterTest() {
         System.out.println("This will execute at the end of every test !!");
     }
 

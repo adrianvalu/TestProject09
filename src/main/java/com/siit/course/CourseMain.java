@@ -14,12 +14,12 @@ public class CourseMain {
         //runCourse05(args);
         //runCourse06();
         //runHomework();
-        try {
+        //try {
             runCourse07(args);
-        }
-        catch (ArrayIndexOutOfBoundsException aob) {
-            System.out.println(aob.getMessage());
-        }
+       // }
+        //catch (ArrayIndexOutOfBoundsException aob) {
+         //  System.out.println(aob.getMessage());
+        //}
 
     }
 }

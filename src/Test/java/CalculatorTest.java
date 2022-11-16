@@ -1,7 +1,5 @@
 import com.siit.course.Calculator;
-import com.sun.source.tree.AssertTree;
 import org.junit.*;
-import org.junit.experimental.theories.suppliers.TestedOn;
 
 public class CalculatorTest {
 
