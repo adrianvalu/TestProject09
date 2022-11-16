@@ -26,8 +26,6 @@ public class Building {
 
     }
 
-
-
     public static void runHomework() {
 
         Furniture seats1 = new Furniture(10, " seats;");
