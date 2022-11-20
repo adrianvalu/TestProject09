@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="Course07 - Exceptions, JUnit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="Course08 - testNG">
+      <change afterPath="$PROJECT_DIR$/src/Test/java/SeleniumTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Utils/BrowserUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,47 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/calibra/IdeaProjects/TestProject09&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/calibra/IdeaProjects/TestProject09",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml">
+  <component name="RunManager" selected="TestNG.SeleniumTests.mySecondSeleniumTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
       <option name="PROGRAM_PARAMETERS" value="1996 + 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="additionTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,21 +93,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeleniumTests.myFirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
+      <option name="METHOD_NAME" value="myFirstSeleniumTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTests.mySecondSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
+      <option name="METHOD_NAME" value="mySecondSeleniumTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="JUnit.CalculatorTest.additionTest" />
       <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
-      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="TestNG.SeleniumTests.myFirstSeleniumTest" />
+      <item itemvalue="TestNG.SeleniumTests.mySecondSeleniumTest" />
       <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
       <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SeleniumTests.mySecondSeleniumTest" />
+        <item itemvalue="TestNG.SeleniumTests.myFirstSeleniumTest" />
         <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
         <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
         <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
-        <item itemvalue="JUnit.CalculatorTest.additionTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668624055177</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Course08 - testNG">
+      <created>1668624365453</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668624365453</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +268,7 @@
     <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
     <MESSAGE value="&#10;Java Building Homework" />
     <MESSAGE value="Course07 - Exceptions, JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course07 - Exceptions, JUnit" />
+    <MESSAGE value="Course08 - testNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course08 - testNG" />
   </component>
 </project>
