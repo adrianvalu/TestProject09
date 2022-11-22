@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="Course08 - testNG">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/SeleniumTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Utils/BrowserUtilities.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Selenium course 1 + 2">
+      <change afterPath="$PROJECT_DIR$/src/Test/java/HomeworkRegistrationSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/calibra/IdeaProjects/TestProject09",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/calibra/IdeaProjects/TestProject09&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumTests.mySecondSeleniumTest">
+  <component name="RunManager" selected="TestNG.HomeworkRegistrationSeleniumTest.registrationTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -63,41 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Course07Test.computeRectangleAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeworkRegistrationSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Course07Test" />
-      <option name="METHOD_NAME" value="computeRectangleAreaTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/myFirstSuiteRun.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRegistrationSeleniumTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlSuiteWithParamters.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTests.myFirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeworkRegistrationSeleniumTest.registrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
-      <option name="METHOD_NAME" value="myFirstSeleniumTest" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkRegistrationSeleniumTest" />
+      <option name="METHOD_NAME" value="registrationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,11 +85,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTests.mySecondSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.basicLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
-      <option name="METHOD_NAME" value="mySecondSeleniumTest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="basicLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.waitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="waitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.waitTestExplicitNew" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="waitTestExplicitNew" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,19 +123,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
-      <item itemvalue="TestNG.SeleniumTests.myFirstSeleniumTest" />
-      <item itemvalue="TestNG.SeleniumTests.mySecondSeleniumTest" />
-      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
-      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
+      <item itemvalue="TestNG.HomeworkRegistrationSeleniumTest" />
+      <item itemvalue="TestNG.SeleniumTest.basicLoginTest" />
+      <item itemvalue="TestNG.HomeworkRegistrationSeleniumTest.registrationTest" />
+      <item itemvalue="TestNG.SeleniumTest.waitTest" />
+      <item itemvalue="TestNG.SeleniumTest.waitTestExplicitNew" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTests.mySecondSeleniumTest" />
-        <item itemvalue="TestNG.SeleniumTests.myFirstSeleniumTest" />
-        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/xmlSuiteWithParamters.xml" />
-        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/TestProject09/myFirstSuiteRun.xml" />
-        <item itemvalue="JUnit.Course07Test.computeRectangleAreaTest" />
+        <item itemvalue="TestNG.HomeworkRegistrationSeleniumTest.registrationTest" />
+        <item itemvalue="TestNG.SeleniumTest.basicLoginTest" />
+        <item itemvalue="TestNG.HomeworkRegistrationSeleniumTest" />
+        <item itemvalue="TestNG.SeleniumTest.waitTestExplicitNew" />
+        <item itemvalue="TestNG.SeleniumTest.waitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668624365453</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&#10;Selenium course 1 + 2">
+      <created>1668957695212</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668957695212</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +280,7 @@
     <MESSAGE value="&#10;Java Building Homework" />
     <MESSAGE value="Course07 - Exceptions, JUnit" />
     <MESSAGE value="Course08 - testNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course08 - testNG" />
+    <MESSAGE value="&#10;Selenium course 1 + 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Selenium course 1 + 2" />
   </component>
 </project>
