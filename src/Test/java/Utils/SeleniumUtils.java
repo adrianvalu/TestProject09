@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.Random;
 import java.util.regex.Pattern;
 
-public class BrowserUtilities {
+public class SeleniumUtils {
 
     public static WebElement waitForGenericElement(WebDriver driver, By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
@@ -22,16 +22,6 @@ public class BrowserUtilities {
         return wait.until(ExpectedConditions.textMatches(locator,patt));
     }
 
-    public static String createRandomString(int charCount) {
-        StringBuilder sb = new StringBuilder();
-        String charset = "abcdefghijklmnopqrstuvwxyz";
-        charset += charset.toUpperCase();
-        for (int i = 0; i < charCount; i++) {
-            Random r = new Random();
-            char x = charset.toCharArray()[r.nextInt(charset.length())];
-            sb.append(x);
-        }
-        return sb.toString();
-    }
+
 
 }

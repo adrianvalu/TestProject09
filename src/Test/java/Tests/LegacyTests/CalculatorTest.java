@@ -1,3 +1,5 @@
+package Tests.LegacyTests;
+
 import com.siit.course.Calculator;
 import org.junit.*;
 

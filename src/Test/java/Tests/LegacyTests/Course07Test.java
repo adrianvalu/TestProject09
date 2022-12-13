@@ -1,3 +1,4 @@
+package Tests.LegacyTests;
 
 import com.siit.course.Circle;
 import com.siit.course.Person;

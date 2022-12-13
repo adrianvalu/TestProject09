@@ -1,5 +1,6 @@
+package Tests.LegacyTests;
 
-import Utils.BrowserUtilities;
+import Utils.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class SeleniumTest {
 
     WebDriver driver;
-    String browser = "firefox";
+    String browser = "Chrome";
 
     @BeforeTest
     public void beforeTest() {
@@ -63,7 +64,7 @@ public class SeleniumTest {
         driver.navigate().to("https://magazinulcolectionarului.ro/");
         Assert.assertEquals(driver.findElement(By.cssSelector("#komenu-navigation > ul > li.komenu-cms-block > ul > li.phone-header > a > span")).getText(),"0213 247 635");
 
-        System.out.println(BrowserUtilities.createRandomString(20));
+        System.out.println(SeleniumUtils.createRandomString(20));
         WebElement myAccount = driver.findElement(By.cssSelector("#html-body > div.page-wrapper > header > div.header.content > ul > li > a > span"));
         myAccount.click();
 
@@ -81,7 +82,7 @@ public class SeleniumTest {
         submitButton.submit();
 
 //        WebElement errorText = driver.findElement(By.cssSelector("#maincontent > div.page.messages > div:nth-child(2) > div > div > div"));
-        WebElement errorText = BrowserUtilities.waitForGenericElement(driver, By.xpath("//*[@id=\"maincontent\"]/div[3]/div[2]/div/div/div"), 10);
+        WebElement errorText = SeleniumUtils.waitForGenericElement(driver, By.xpath("//*[@id=\"maincontent\"]/div[3]/div[2]/div/div/div"), 10);
         String errMsg = "Conectarea la cont a fost incorectă sau contul dvs. este dezactivat temporar. Vă rugăm să așteptați și să încercați din nou mai târziu.";
 
         Assert.assertEquals(errorText.getText(), errMsg);
@@ -183,7 +184,7 @@ public class SeleniumTest {
     @Test
     public void waitTestExplicitNew() {
         driver.navigate().to("http://86.121.249.151:8081/lazy.html");
-        WebElement clickMeButton = BrowserUtilities.waitForGenericElement(driver, By.id("btn1"), 10);
+        WebElement clickMeButton = SeleniumUtils.waitForGenericElement(driver, By.id("btn1"), 10);
         clickMeButton.click();
         System.out.println(clickMeButton.isDisplayed());
         System.out.println(clickMeButton.isEnabled());

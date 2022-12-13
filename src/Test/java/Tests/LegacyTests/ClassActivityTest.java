@@ -1,3 +1,5 @@
+package Tests.LegacyTests;
+
 import org.testng.annotations.Test;
 
 public class ClassActivityTest {

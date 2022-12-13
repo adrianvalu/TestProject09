@@ -3,7 +3,7 @@
 <suite name="Suite Example Parameters">
     <test thread-count="5" name="TestProject09">
         <classes>
-            <class name="MyFirstTestNGTest">
+            <class name="Tests.LegacyTests.MyFirstTestNGTest">
                 <methods>
                     <include name="getParamsFromCmd"/>
                 </methods>
