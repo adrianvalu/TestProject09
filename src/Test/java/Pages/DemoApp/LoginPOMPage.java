@@ -8,25 +8,25 @@ import org.testng.Assert;
 // This is classic Page Object Model
 public class LoginPOMPage extends BasePage {
 
-    private String pageTextSelector = "//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div/h1/small";
+    private String pageTextSelector = "//*[@id=\"svelte\"]/div[1]/div[2]/div[2]/h1";
     private String pageTextCssSelector = "#root > div > div.content > div > div:nth-child(1) > div > div > h1 > small";
     private String pageTextClassSelector = "text-muted";
     private String elemtsSelector = "text-muted";
     private String elementsTagSelector = "small";
-    private String usernameLabelSelector = "#login-form > div:nth-child(1) > label";
-    private String passwordLabelSelector = "#login-form > div.form-group.row.row-cols-lg-true > label";
-    private String usernameInputSelector = "input-login-username";
-    private String passwordInputSelector = "input-login-password";
-    private String submitButtonSelector = "#login-form > div:nth-child(3) > div.text-left.col-lg > button";
-    private String usernameErrorSelector = "#login-form > div:nth-child(1) > div > div > div.text-left.invalid-feedback";
-    private String passwordErrorSelector = "#login-form > div.form-group.row.row-cols-lg-true > div > div > div.text-left.invalid-feedback";
+    private String usernameLabelSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > div:nth-child(1) > label";
+    private String passwordLabelSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > div:nth-child(2) > label";
+    private String usernameInputSelector = "user";
+    private String passwordInputSelector = "pass";
+    private String submitButtonSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > button";
+    private String usernameErrorSelector = "form-error";
+    private String passwordErrorSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > div:nth-child(2) > small";
 
     public LoginPOMPage(WebDriver driver) {
         super(driver);
     }
 
     public void verifyPage() {
-        Assert.assertEquals(driver.findElement(By.xpath(pageTextSelector)).getText(),"Authentication");
+        Assert.assertEquals(driver.findElement(By.xpath(pageTextSelector)).getText(),"Sign in");
 
     }
 
@@ -45,7 +45,7 @@ public class LoginPOMPage extends BasePage {
     }
 
     public String getUsernameError() {
-        return driver.findElement(By.cssSelector(usernameErrorSelector)).getText();
+        return driver.findElement(By.className(usernameErrorSelector)).getText();
     }
 
     public String getPasswordError() {

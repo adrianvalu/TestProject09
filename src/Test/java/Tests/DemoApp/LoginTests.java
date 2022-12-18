@@ -45,7 +45,7 @@ public class LoginTests extends BaseTest{
     //
     @Test
     public void loginPositivePomTest() {
-        driver.get(baseUrl + "#/login");
+        driver.get(baseUrl + "/signin/");
         LoginPOMPage lp = new LoginPOMPage(driver);
         lp.verifyPage();
         lp.login("abc", "password");
@@ -54,16 +54,16 @@ public class LoginTests extends BaseTest{
     @DataProvider(name = "loginData")
     public Iterator<Object[]> loginDataProvider() {
         Collection<Object[]> dp = new ArrayList<>();
-        dp.add(new String[] { "alex", "abc123", "", "" } );
-        dp.add(new String[] { "", "", "Username is required!", "Password is required!" } );
-        dp.add(new String[] { "alex", "", "", "Password is required!"  });
-        dp.add(new String[] { "", "abc123", "Username is required!", "" });
+        //dp.add(new String[] { "zebra", "zebrapassword", "", "" } );
+        //dp.add(new String[] { "", "", "Please enter your username", "Please enter your password" } );
+        dp.add(new String[] { "zebra", "", "", "Please enter your password"  });
+        //dp.add(new String[] { "", "zebrapassword", "Please enter your username", "" });
         return dp.iterator();
     }
 
     @Test(dataProvider = "loginData")
     public void loginDpTest(String username, String password, String userErr, String passErr) {
-        driver.get(baseUrl + "#/login");
+        driver.get(baseUrl + "/signin/");
         LoginPOMPage lp = new LoginPOMPage(driver);
         lp.verifyPage();
         lp.login(username, password);

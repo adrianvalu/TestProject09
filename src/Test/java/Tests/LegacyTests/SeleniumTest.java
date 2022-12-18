@@ -64,7 +64,7 @@ public class SeleniumTest {
         driver.navigate().to("https://magazinulcolectionarului.ro/");
         Assert.assertEquals(driver.findElement(By.cssSelector("#komenu-navigation > ul > li.komenu-cms-block > ul > li.phone-header > a > span")).getText(),"0213 247 635");
 
-        System.out.println(SeleniumUtils.createRandomString(20));
+        //System.out.println(SeleniumUtils.createRandomString(20));
         WebElement myAccount = driver.findElement(By.cssSelector("#html-body > div.page-wrapper > header > div.header.content > ul > li > a > span"));
         myAccount.click();
 

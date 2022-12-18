@@ -1,4 +1,3 @@
-
 package Utils;
 
 import java.io.FileInputStream;
@@ -35,4 +34,38 @@ public class GenericUtils {
         }
         return urlBase;
     }
+
+    public static String getBrowserConfig(String configFile) {
+        return ConfigUtils.getGenericValue(configFile, "browser", "FIREFOX");
+    }
+
+    public static Boolean getInsecureCertOptions(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "acceptInsecureCerts", "false"));
+    }
+
+    public static Boolean getHeadlessMode(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "headlessMode", "false"));
+
+    }
+
+
+    public static boolean isProxyEnabled(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "proxyEnabled", "false"));
+    }
+
+    public static boolean isDownloadDirectoryEnabled(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "downloadDirectoryEnabled", "false"));
+    }
+
+    public static boolean startMaximized(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "startMaximized", "false"));
+
+    }
+
+    public static boolean enableExtension(String configFile) {
+        return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "enableExtension", "false"));
+
+    }
+
+
 }
