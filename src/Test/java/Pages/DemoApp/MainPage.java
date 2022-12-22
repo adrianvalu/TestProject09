@@ -10,6 +10,8 @@ public class MainPage extends BasePage{
     private String interceptorUrlSelector = "#svelte > div.container-fluid > div.main.row > div.sidebar > a:nth-child(4)"; //CSS
     private String modalUrlSelector = "#svelte > div.container-fluid > div.main.row > div.sidebar > a:nth-child(5)";// CSS
     private String welcomeTextSelector = "#svelte > div.container-fluid > div.main.row > div.content > h1"; //CSS
+    private String loginUrlSelector = "#svelte > div.container-fluid > div.header.sticky-top.row > div:nth-child(2) > div > a > h2 > i";
+    private String cookieUrlSelector = "#svelte > div.container-fluid > div.main.row > div.sidebar > a:nth-child(2)";
 
     public MainPage(WebDriver driver) {
         super(driver);
@@ -36,4 +38,13 @@ public class MainPage extends BasePage{
         return driver.findElement(By.cssSelector(welcomeTextSelector)).getText();
     }
 
+    public void goToLogin(){
+
+        driver.findElement(By.cssSelector(loginUrlSelector)).click();
+    }
+
+
+    public void goToCookie() {
+        driver.findElement(By.cssSelector(cookieUrlSelector)).click();
+    }
 }

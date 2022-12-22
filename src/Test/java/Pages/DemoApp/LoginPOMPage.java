@@ -15,6 +15,8 @@ public class LoginPOMPage extends BasePage {
     private String elementsTagSelector = "small";
     private String usernameLabelSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > div:nth-child(1) > label";
     private String passwordLabelSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > div:nth-child(2) > label";
+    private String registerSelector = "#svelte > div.container-fluid > div.main.row > div.content > p:nth-child(3) > div > a";
+    private String loginTextSelector = "#svelte > div.container-fluid > div.main.row > div.content > h1";
     private String usernameInputSelector = "user";
     private String passwordInputSelector = "pass";
     private String submitButtonSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > div > div > form > button";
@@ -50,6 +52,15 @@ public class LoginPOMPage extends BasePage {
 
     public String getPasswordError() {
         return driver.findElement(By.cssSelector(passwordErrorSelector)).getText();
+    }
+
+    public String getLoginText() {
+        return driver.findElement(By.cssSelector(loginTextSelector)).getText();
+    }
+
+    public void goToRegister(){
+
+        driver.findElement(By.cssSelector(registerSelector)).click();
     }
 
 
