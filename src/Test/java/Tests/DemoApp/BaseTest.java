@@ -12,6 +12,7 @@ public class BaseTest {
     public WebDriver driver;
     String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
+    String baseUrl3 = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_4);
 
     @BeforeTest
     public void beforeTest() {
@@ -19,8 +20,8 @@ public class BaseTest {
         driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
     }
 
-    @AfterTest
-    public void afterTest() {
-        driver.quit();
-    }
+    //@AfterTest
+    //public void afterTest() {
+        //driver.quit();
+    //}
 }

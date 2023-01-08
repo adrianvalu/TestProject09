@@ -67,4 +67,18 @@ public class AdvancedSeleniumTests extends  BaseTest{
         cip.clickCheckbox();
     }
 
+    @Test
+    public void CheckBoxTest03() {
+        driver.get(baseUrl3);
+
+        ClickInterceptorPage cip = new ClickInterceptorPage(driver);
+
+
+        cip.clickCheckbox3();
+
+        String acceptCookieSelector = "#btn-cookie-allow > span";
+        WebElement acceptCookie = driver.findElement(By.cssSelector(acceptCookieSelector));
+        acceptCookie.click();
+    }
+
 }
