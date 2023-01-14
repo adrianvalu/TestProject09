@@ -4,68 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Selenium Advanced features">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/ClickInterceptorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/ClickInterceptorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/AccountEditPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/AccountPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/AdvancedSeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/AdvancedSeleniumTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/ClassActivityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/Course07Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/HomeworkRegistrationSeleniumTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/MyFirstTestNGTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/SeleniumTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/CookieTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Appliances.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Browsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/ConferenceRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CustomCourseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/FacultyCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Floor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Furniture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/IShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Kitchen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Light.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/OfficeSpace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/RoomType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Toilet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/GeneralUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/MathFunctions.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="final_project" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -220,11 +165,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
         <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
         <item itemvalue="TestNG.CookiesTests.cookieTest" />
+        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
+        <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
+        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671366770801</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="final project">
+      <created>1673698767092</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673698767092</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +346,7 @@
     <MESSAGE value="&#10;Selenium Registration Homework" />
     <MESSAGE value="Page Object Model / Factory, Framework Architecture" />
     <MESSAGE value="&#10;Selenium Advanced features" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Selenium Advanced features" />
+    <MESSAGE value="final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project" />
   </component>
 </project>
