@@ -9,8 +9,7 @@ public class ClickInterceptorPage extends BasePage{
     private String pageLabelSelector = "#svelte > div.container-fluid > div.main.row > div.content > h1"; //CSS
     private String checkboxSelector = "#svelte > div.container-fluid > div.main.row > div.content > div > label > span"; // CSS
 
-    //for project
-    private String checkboxSelector3 = "#accept_gdpr";
+
 
 
 
@@ -28,9 +27,5 @@ public class ClickInterceptorPage extends BasePage{
         actions.click(checkbox).build().perform();
     }
 
-    public void clickCheckbox3() {
-        WebElement checkbox3 = driver.findElement(By.cssSelector(checkboxSelector3));
-        Actions actions = new Actions(driver);
-        actions.click(checkbox3).build().perform();
-    }
+
 }

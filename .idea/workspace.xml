@@ -5,15 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="&#10;Selenium Advanced features">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/CookiePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/CookiesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/LoginPOMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/LoginPOMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/ClickInterceptorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/ClickInterceptorPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/DemoApp/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/AccountEditPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/AccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MyPCTM/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/AdvancedSeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/AdvancedSeleniumTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DemoApp/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/ClassActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/Course07Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/HomeworkRegistrationSeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/MyFirstTestNGTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/LegacyTests/SeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/CookieTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/MyPCTM/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Appliances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Browsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Building.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CarBrands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/ConferenceRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Course07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CourseMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/CustomCourseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/FacultyCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Furniture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/IShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Kitchen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/NewMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/OfficeSpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/RoomType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Toilet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/GeneralUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siit/course/utils/MathFunctions.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +111,11 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CookiesTests.cookieTest">
+  <component name="RunManager" selected="TestNG.RegistrationTests.CheckBoxTest03">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
       <option name="PROGRAM_PARAMETERS" value="1996 + 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedSeleniumTests.AlertTest01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DemoApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.AdvancedSeleniumTests" />
-      <option name="METHOD_NAME" value="AlertTest01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,6 +156,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdvancedSeleniumTests.CheckBoxTest03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.DemoApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.AdvancedSeleniumTests" />
+      <option name="METHOD_NAME" value="CheckBoxTest03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CookiesTests.cookieTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
@@ -140,17 +192,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.registerDpTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.CheckBoxTest03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.DemoApp.*" />
+          <option name="PATTERN" value="Tests.Nelbo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.RegistrationTests" />
-      <option name="METHOD_NAME" value="registerDpTest" />
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.RegistrationTests" />
+      <option name="METHOD_NAME" value="CheckBoxTest03" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,19 +212,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="TestNG.AdvancedSeleniumTests.AlertTest01" />
+      <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
+      <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
       <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
       <item itemvalue="TestNG.CookiesTests.cookieTest" />
       <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
-      <item itemvalue="TestNG.RegistrationTests.registerDpTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CookiesTests.cookieTest" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.AlertTest01" />
-        <item itemvalue="TestNG.RegistrationTests.registerDpTest" />
+        <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
         <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
+        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
+        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
+        <item itemvalue="TestNG.CookiesTests.cookieTest" />
       </list>
     </recent_temporary>
   </component>

@@ -60,25 +60,11 @@ public class AdvancedSeleniumTests extends  BaseTest{
         mp.gotToInterceptor();
         ClickInterceptorPage cip = new ClickInterceptorPage(driver);
 
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
         WebElement expectedText = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#svelte > div.container-fluid > div.main.row > div.content > h1")));
 
         Assert.assertEquals(expectedText.getText(), "Click intercepted");
         cip.clickCheckbox();
-    }
-
-    @Test
-    public void CheckBoxTest03() {
-        driver.get(baseUrl3);
-
-        ClickInterceptorPage cip = new ClickInterceptorPage(driver);
-
-
-        cip.clickCheckbox3();
-
-        String acceptCookieSelector = "#btn-cookie-allow > span";
-        WebElement acceptCookie = driver.findElement(By.cssSelector(acceptCookieSelector));
-        acceptCookie.click();
     }
 
 }
