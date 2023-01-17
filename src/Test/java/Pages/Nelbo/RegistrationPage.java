@@ -8,14 +8,21 @@ import org.openqa.selenium.interactions.Actions;
 public class RegistrationPage extends BasePage {
 
     //for project
-    private String checkboxSelector3 = "#accept_gdpr";
+
     private String registrationPageTextSelector = "body > main > div > div.page-title-wrapper > div > h1 > span";
+    private String firstNameInputSelector = "#firstname";
+    private String surNameInputSelector = "#lastname";
+    private String emailInputSelector = "#email_address";
+    private String passwordInputSelector = "#password";
+    private String confirmPasswordInputSelector = "#password-confirmation";
+    private String firstNameErrorSelector = "firstname-error";
+    private String lastNameErrorSelector = "lastname-error";
+    private String emailErrorSelector = "email_address-error";
+    private String passwordErrorSelector = "password-error";
+    private String confirmPasswordErrorSelector = "password-confirmation-error";
+    private String checkboxRegistrationSelector = "accept_gdpr";
     private String registerButtonSelector = "#form-validate > div > div > div:nth-child(2) > button > span";
-    private String firstNameErrorSelector = "#firstname-error";
-    private String surNameErrorSelector = "#lastname-error";
-    private String emailErrorSelector = "#email_address-error";
-    private String passwordErrorSelector = "#password-error";
-    private String confirmPasswordErrorSelector = "#password-confirmation-error";
+
 
 
     public RegistrationPage(WebDriver driver) {
@@ -27,38 +34,32 @@ public class RegistrationPage extends BasePage {
     }
 
     public String getFirstNameErrorText() {
-        return driver.findElement(By.cssSelector(firstNameErrorSelector)).getText();
+        return driver.findElement(By.id(firstNameErrorSelector)).getText();
     }
 
-    public String getSurNameErrorText() {
-        return driver.findElement(By.cssSelector(surNameErrorSelector)).getText();
+    public String getLastNameErrorText() {
+        return driver.findElement(By.id(lastNameErrorSelector)).getText();
     }
 
     public String getEmailErrorText() {
-        return driver.findElement(By.cssSelector(emailErrorSelector)).getText();
+        return driver.findElement(By.id(emailErrorSelector)).getText();
     }
 
     public String getPasswordErrorText() {
-        return driver.findElement(By.cssSelector(passwordErrorSelector)).getText();
+        return driver.findElement(By.id(passwordErrorSelector)).getText();
     }
 
     public String getConfirmPasswordErrorText() {
-        return driver.findElement(By.cssSelector(confirmPasswordErrorSelector)).getText();
+        return driver.findElement(By.id(confirmPasswordErrorSelector)).getText();
     }
 
-    public void clickCheckbox3() {
-        WebElement checkbox3 = driver.findElement(By.cssSelector(checkboxSelector3));
+    public void clickCheckboxRegistration() {
+        WebElement checkbox = driver.findElement(By.id(checkboxRegistrationSelector));
         Actions actions = new Actions(driver);
-        actions.click(checkbox3).build().perform();
-    }
-    public void acceptCookies() {
-        String acceptCookieSelector = "#btn-cookie-allow > span";
-        WebElement acceptCookie = driver.findElement(By.cssSelector(acceptCookieSelector));
-        acceptCookie.click();
+        actions.click(checkbox).build().perform();
     }
 
     public void register() {
-        WebElement registerButton = driver.findElement(By.cssSelector(registerButtonSelector));
-        registerButton.click();
+        driver.findElement(By.cssSelector(registerButtonSelector)).click();
     }
 }

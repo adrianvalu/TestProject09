@@ -42,7 +42,7 @@ public class LoginDataTests extends BaseTest {
 
     @Test(dataProvider = "jsonDp")
     public void loginWithJsonTest(LoginModel lm) {
-        printData(lm);
+        //printData(lm);
         loginActions(lm);
     }
 

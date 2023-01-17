@@ -1,0 +1,26 @@
+[
+  {
+    "account": {
+      "username": "test@yah.com",
+      "password": ""
+    },
+    "userError": "",
+    "passwordError": "Acesta este un câmp obligatoriu."
+  },
+  {
+    "account": {
+      "username": "",
+      "password": "test1234"
+    },
+    "userError": "Acesta este un câmp obligatoriu.",
+    "passwordError": ""
+  },
+  {
+    "account": {
+      "username": "",
+      "password": ""
+    },
+    "userError": "Acesta este un câmp obligatoriu.",
+    "passwordError": "Acesta este un câmp obligatoriu."
+  }
+]

@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project">
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project2">
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config3.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config3.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ConstantUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="final_project" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +69,7 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.CheckBoxTest03">
+  <component name="RunManager" selected="TestNG.LoginDataNelboTests.loginWithDBTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -65,7 +78,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedSeleniumTests.CheckBoxTest01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginDataNelboTests.loginWithDBTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.DataTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.DataTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataNelboTests" />
+      <option name="METHOD_NAME" value="loginWithDBTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataNelboTests.loginWithJsonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.DataTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.DataTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataNelboTests" />
+      <option name="METHOD_NAME" value="loginWithJsonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataTests.loginWithDBTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.DataTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.DataTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataTests" />
+      <option name="METHOD_NAME" value="loginWithDBTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataTests.loginWithJsonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.DataTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.DataTests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataTests" />
+      <option name="METHOD_NAME" value="loginWithJsonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -74,80 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.AdvancedSeleniumTests" />
-      <option name="METHOD_NAME" value="CheckBoxTest01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedSeleniumTests.CheckBoxTest02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DemoApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.AdvancedSeleniumTests" />
-      <option name="METHOD_NAME" value="CheckBoxTest02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedSeleniumTests.CheckBoxTest03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DemoApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.AdvancedSeleniumTests" />
-      <option name="METHOD_NAME" value="CheckBoxTest03" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CookiesTests.cookieTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DemoApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DemoApp" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.CookiesTests" />
-      <option name="METHOD_NAME" value="cookieTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTests.CheckBoxTest03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.RegistrationTests" />
-      <option name="METHOD_NAME" value="CheckBoxTest03" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DemoApp.LoginTests" />
+      <option name="METHOD_NAME" value="loginPositiveTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
-      <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
-      <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
-      <item itemvalue="TestNG.CookiesTests.cookieTest" />
-      <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
+      <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
+      <item itemvalue="TestNG.LoginDataTests.loginWithDBTest" />
+      <item itemvalue="TestNG.LoginDataNelboTests.loginWithJsonTest" />
+      <item itemvalue="TestNG.LoginDataTests.loginWithJsonTest" />
+      <item itemvalue="TestNG.LoginTests.loginPositiveTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest01" />
-        <item itemvalue="TestNG.CookiesTests.cookieTest" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest02" />
-        <item itemvalue="TestNG.RegistrationTests.CheckBoxTest03" />
-        <item itemvalue="TestNG.AdvancedSeleniumTests.CheckBoxTest03" />
+        <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
+        <item itemvalue="TestNG.LoginDataNelboTests.loginWithJsonTest" />
+        <item itemvalue="TestNG.LoginDataTests.loginWithDBTest" />
+        <item itemvalue="TestNG.LoginDataTests.loginWithJsonTest" />
+        <item itemvalue="TestNG.LoginTests.loginPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673698767092</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="final project1">
+      <created>1673699819195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673699819195</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +367,84 @@
     <MESSAGE value="Page Object Model / Factory, Framework Architecture" />
     <MESSAGE value="&#10;Selenium Advanced features" />
     <MESSAGE value="final project" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project" />
+    <MESSAGE value="final project1" />
+    <MESSAGE value="final project2" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataTests.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DemoApp/BaseTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DemoApp/BaseTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

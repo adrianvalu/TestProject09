@@ -12,6 +12,7 @@ public class MainPage extends BasePage {
     private String userLoginSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li.authorization-link > a";
     private String userRegistrationSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li:nth-child(4) > a";
     private String controlereSelector = "#vertical-menu-2 > li:nth-child(7) > a > span";
+    private String acceptCookieSelector = "#btn-cookie-allow > span";
     public MainPage(WebDriver driver) {
         super(driver);
     }
@@ -24,7 +25,18 @@ public class MainPage extends BasePage {
         WebElement hoverButton = driver.findElement(By.cssSelector(userMenuSelector));
         Actions actions = new Actions(driver);
         actions.moveToElement(hoverButton).build().perform();
-        //driver.findElement(By.id(userRegistrationSelector)).click();
-        //Assert.assertEquals(driver.findElement(By.id(resultTextSelector)).getText(), "You last clicked the Dog");
+    }
+
+    public void goToRegistration() {
+        driver.findElement(By.cssSelector(userRegistrationSelector)).click();
+    }
+
+    public void goToLogin() {
+        driver.findElement(By.cssSelector(userLoginSelector)).click();
+
+    }
+
+    public void acceptCookiesPolicy() {
+        driver.findElement(By.cssSelector(acceptCookieSelector)).click();
     }
 }

@@ -12,29 +12,25 @@ import org.testng.annotations.Test;
 public class RegistrationTests extends BaseTest {
 
     @Test
-    public void CheckBoxTest03() {
+    public void registerTest () {
         driver.get(baseUrl3);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getControlereText(), "Controlere");
+        mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
-        String registrationSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li:nth-child(4) > a";
-        WebElement userRegistration = driver.findElement(By.cssSelector(registrationSelector));
-        userRegistration.click();
+        mp.goToRegistration();
 
         RegistrationPage cip = new RegistrationPage(driver);
         Assert.assertEquals(cip.getRegistrationPageText(), "Creați Cont client nou");
 
-
-        cip.clickCheckbox3();
-        cip.acceptCookies();
+        cip.clickCheckboxRegistration();
         cip.register();
 
         Assert.assertEquals(cip.getFirstNameErrorText(), "Acesta este un câmp obligatoriu.");
-        Assert.assertEquals(cip.getSurNameErrorText(), "Acesta este un câmp obligatoriu.");
+        Assert.assertEquals(cip.getLastNameErrorText(), "Acesta este un câmp obligatoriu.");
         Assert.assertEquals(cip.getEmailErrorText(), "Acesta este un câmp obligatoriu.");
         Assert.assertEquals(cip.getPasswordErrorText(), "Acesta este un câmp obligatoriu.");
         Assert.assertEquals(cip.getConfirmPasswordErrorText(), "Acesta este un câmp obligatoriu.");
-
 
     }
 }
