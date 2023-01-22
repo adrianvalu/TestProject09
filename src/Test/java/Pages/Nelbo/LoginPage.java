@@ -44,12 +44,10 @@ public class LoginPage extends BasePage {
     public boolean checkErr(String expectedErr, String errorType) {
         if (errorType.equalsIgnoreCase("userErr")) {
             if (expectedErr.length() > 0) {
-                System.out.println("Actual user error:" + getEmailLoginErrorText());
                 return expectedErr.equals(getEmailLoginErrorText());
             } else return true;
         } else if (errorType.equalsIgnoreCase("passErr")) {
             if (expectedErr.length() > 0) {
-                System.out.println("Actual pass error:" + getPasswordLoginErrorText());
                 return expectedErr.equalsIgnoreCase(getPasswordLoginErrorText());
             } else return true;
         }

@@ -24,7 +24,7 @@ public class RegistrationTests extends BaseTest {
         Assert.assertEquals(cip.getRegistrationPageText(), "Creați Cont client nou");
 
         cip.clickCheckboxRegistration();
-        cip.register();
+        //cip.register();
 
         Assert.assertEquals(cip.getFirstNameErrorText(), "Acesta este un câmp obligatoriu.");
         Assert.assertEquals(cip.getLastNameErrorText(), "Acesta este un câmp obligatoriu.");

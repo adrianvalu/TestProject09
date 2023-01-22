@@ -2,14 +2,6 @@
   {
     "account": {
       "username": "",
-      "password": ""
-    },
-    "userError": "",
-    "passwordError": "Acesta este un câmp obligatoriu."
-  },
-  {
-    "account": {
-      "username": "",
       "password": "test1234"
     },
     "userError": "Acesta este un câmp obligatoriu.",

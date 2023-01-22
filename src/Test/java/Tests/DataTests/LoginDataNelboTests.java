@@ -1,7 +1,10 @@
 package Tests.DataTests;
 
 import Pages.Nelbo.LoginPage;
+import Pages.Nelbo.MainPage;
+import Pages.Nelbo.RegistrationPage;
 import Tests.ObjectModels.LoginModel;
+import Tests.ObjectModels.RegistrationModel;
 import Utils.Tools;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.Assert;
@@ -23,49 +26,75 @@ public class LoginDataNelboTests extends BaseTest {
 //      here is starting deserialization of json into LoginModel object
         ObjectMapper objectMapper = new ObjectMapper();
 
-        File f = new File("src\\test\\java\\resources\\data\\testdatanelbo.json");
-        LoginModel[] lms = objectMapper.readValue(f, LoginModel[].class);
+        File f = new File("src\\test\\java\\resources\\data\\testdatanelbo3.json");
+        RegistrationModel[] lms = objectMapper.readValue(f, RegistrationModel[].class);
 
-        for (LoginModel lm : lms)
-            dp.add(new Object[]{lm});
+        for (RegistrationModel rm : lms)
+            dp.add(new Object[]{rm});
 
         return dp.iterator();
     }
 
-    @Test(dataProvider = "jsonDp")
-    public void loginWithJsonTest(LoginModel lm) {
-        printData(lm);
-        loginActions(lm);
-    }
+
 
     private void printData(LoginModel lm) {
-//        System.out.println("Account:username" + lm.getAccount().getUsername()
-//                + "/password:" + lm.getAccount().getPassword());
-//        System.out.println("User error:" + lm.getUserError());
-//        System.out.println("Password error:" + lm.getPasswordError());
         System.out.println(lm);
+    }
+    private void printData2(RegistrationModel rm) {
+        System.out.println(rm);
     }
 
     private void loginActions(LoginModel lm) {
 
+        driver.get(baseUrl);
+
+        MainPage mp = new MainPage(driver);
+        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        mp.hoverButtonInteract();
+        mp.goToLogin();
         LoginPage loginPage = new LoginPage(driver);
-
-//       open login page
-        System.out.println("Open Login page");
-        driver.get(baseUrl + "/customer/account/login/referer/aHR0cHM6Ly9uZWxiby5yby8%2C/");
-
+        Assert.assertEquals(loginPage.getLoginPageText(), "Conectare client");
 //         login
         loginPage.login(lm.getAccount().getUsername(), lm.getAccount().getPassword());
-        System.out.println("Login button was pressed");
 
         String expectedUsernameErr = lm.getUserError();
         String expectedPassErr = lm.getPasswordError();
 
-        System.out.println("Verify expected errors present:\n expected userError:" + expectedUsernameErr);
+        //System.out.println("Verify expected errors present:\n expected userError:" + expectedUsernameErr);
         Assert.assertTrue(loginPage.checkErr(expectedUsernameErr, "userErr"));
 
-        System.out.println("Expected Password Err:" + expectedPassErr);
+        //System.out.println("Expected Password Err:" + expectedPassErr);
         Assert.assertTrue(loginPage.checkErr(expectedPassErr, "passErr"));
+    }
+
+    private void registerActions(RegistrationModel rm) {
+        driver.get(baseUrl);
+
+        MainPage mp = new MainPage(driver);
+        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        mp.hoverButtonInteract();
+        mp.goToRegistration();
+        RegistrationPage registrationPage = new RegistrationPage(driver);
+        Assert.assertEquals(registrationPage.getRegistrationPageText(), "Creați Cont client nou");
+
+//         login
+        registrationPage.register(rm.getAccountRegister().getFirstName(), rm.getAccountRegister().getLastName(), rm.getAccountRegister().getUsername(), rm.getAccountRegister().getPassword(), rm.getAccountRegister().getConfirmPassword());
+
+        String expectedFirstNameErr = rm.getFirstNameError();
+        String expectedLastNameErr = rm.getLastNameError();
+        String expectedUsernameErr = rm.getUserError();
+        String expectedPassErr = rm.getPasswordError();
+        String expectedConfirmPassErr = rm.getConfirmPasswordError();
+
+        Assert.assertTrue(registrationPage.checkErr(expectedFirstNameErr, "firstNameErr"));
+        Assert.assertTrue(registrationPage.checkErr(expectedLastNameErr, "lastNameErr"));
+
+        //System.out.println("Verify expected errors present:\n expected userError:" + expectedUsernameErr);
+        Assert.assertTrue(registrationPage.checkErr(expectedUsernameErr, "userErr"));
+
+        //System.out.println("Expected Password Err:" + expectedPassErr);
+        Assert.assertTrue(registrationPage.checkErr(expectedPassErr, "passErr"));
+        Assert.assertTrue(registrationPage.checkErr(expectedConfirmPassErr, "confirmPassErr"));
     }
 
     @DataProvider(name = "SQLdp")
@@ -100,6 +129,11 @@ public class LoginDataNelboTests extends BaseTest {
         return Tools.replaceElements(resultSet.getString(element), "''", "");
     }
 
+    @Test(dataProvider = "jsonDp")
+    public void registerWithJsonTest(RegistrationModel rm) {
+        printData2(rm);
+        registerActions(rm);
+    }
     @Test(dataProvider = "SQLdp")
     public void loginWithDBTest(LoginModel lm) {
         printData(lm);
