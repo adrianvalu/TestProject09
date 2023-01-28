@@ -1,6 +1,7 @@
 package Pages.Nelbo;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,6 +14,11 @@ public class MainPage extends BasePage {
     private String userRegistrationSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li:nth-child(4) > a";
     private String controlereSelector = "#vertical-menu-2 > li:nth-child(7) > a > span";
     private String acceptCookieSelector = "#btn-cookie-allow > span";
+    private String abonareErrSelector = "newsletter-footer-error";
+
+    private String abonareSelector = "#newsletter-validate-detail-footer > div.actions > button > span";
+    private String abonareInputSelector = "#newsletter-footer";
+
     public MainPage(WebDriver driver) {
         super(driver);
     }
@@ -21,8 +27,26 @@ public class MainPage extends BasePage {
         return driver.findElement(By.cssSelector(controlereSelector)).getText();
     }
 
+    public String getab2() {
+        return driver.findElement(By.id(abonareErrSelector)).getText();
+    }
+
+    public String getAbonareError() {
+        try {
+            return driver.findElement(By.cssSelector(abonareErrSelector)).getText();
+        } catch (NoSuchElementException nse) {
+            return "Introduceți o adresă email validă (Ex: johndoe@domain.com).";
+        }
+    }
+
     public void hoverButtonInteract() {
         WebElement hoverButton = driver.findElement(By.cssSelector(userMenuSelector));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(hoverButton).build().perform();
+    }
+
+    public void hoverButtonInteract2() {
+        WebElement hoverButton = driver.findElement(By.cssSelector(abonareSelector));
         Actions actions = new Actions(driver);
         actions.moveToElement(hoverButton).build().perform();
     }
@@ -38,5 +62,9 @@ public class MainPage extends BasePage {
 
     public void acceptCookiesPolicy() {
         driver.findElement(By.cssSelector(acceptCookieSelector)).click();
+    }
+
+    public void abonareNewsletter() {
+        driver.findElement(By.cssSelector(abonareSelector)).click();
     }
 }

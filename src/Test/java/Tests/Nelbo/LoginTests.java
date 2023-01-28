@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class LoginTests extends BaseTest {
 
     @Test
@@ -21,6 +23,17 @@ public class LoginTests extends BaseTest {
         mp.goToLogin();
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
-
     }
+
+    @Test
+    public void abonareNewsletterTest () {
+        driver.get(baseUrl3);
+        MainPage mp = new MainPage(driver);
+        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        mp.abonareNewsletter();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Assert.assertEquals(mp.getab2(), "");
+    }
+
+
 }
