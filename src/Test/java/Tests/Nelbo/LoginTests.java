@@ -17,7 +17,7 @@ public class LoginTests extends BaseTest {
     public void loginTest () {
         driver.get(baseUrl3);
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToLogin();
@@ -29,10 +29,11 @@ public class LoginTests extends BaseTest {
     public void abonareNewsletterTest () {
         driver.get(baseUrl3);
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getControlereText(), "Controlere");
-        mp.abonareNewsletter();
+        Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertEquals(mp.getab2(), "");
+        mp.abonareNewsletter();
+
+        Assert.assertEquals(mp.getAbonareError(), "");
     }
 
 

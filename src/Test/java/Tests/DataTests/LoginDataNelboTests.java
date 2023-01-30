@@ -49,7 +49,7 @@ public class LoginDataNelboTests extends BaseTest {
         driver.get(baseUrl);
 
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.hoverButtonInteract();
         mp.goToLogin();
         LoginPage loginPage = new LoginPage(driver);
@@ -71,7 +71,7 @@ public class LoginDataNelboTests extends BaseTest {
         driver.get(baseUrl);
 
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.hoverButtonInteract();
         mp.goToRegistration();
         RegistrationPage registrationPage = new RegistrationPage(driver);

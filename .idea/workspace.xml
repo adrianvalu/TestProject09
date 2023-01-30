@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project5">
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 6">
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,45 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/calibra/IdeaProjects/TestProject09",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/calibra/IdeaProjects/TestProject09&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.abonareNewsletterTest">
+  <component name="RunManager" selected="TestNG.SearchTests.negativeSearchTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
       <option name="PROGRAM_PARAMETERS" value="1996 + 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginDataNelboTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DataTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DataTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataNelboTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,24 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.abonareNewsletterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LoginTests" />
-      <option name="METHOD_NAME" value="abonareNewsletterTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTests.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
@@ -157,21 +128,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTests.negativeSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
+      <option name="METHOD_NAME" value="negativeSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
-      <item itemvalue="TestNG.LoginDataNelboTests" />
+      <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
+      <item itemvalue="TestNG.SearchTests.searchTest" />
       <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonTest" />
       <item itemvalue="TestNG.LoginTests.loginTest" />
       <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
+        <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
+        <item itemvalue="TestNG.SearchTests.searchTest" />
         <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonTest" />
         <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
         <item itemvalue="TestNG.LoginTests.loginTest" />
-        <item itemvalue="TestNG.LoginDataNelboTests" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673973865884</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="final project 6">
+      <created>1674893070273</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674893070273</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,7 +382,8 @@
     <MESSAGE value="final project3" />
     <MESSAGE value="final project4" />
     <MESSAGE value="final project5" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project5" />
+    <MESSAGE value="final project 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,23 +399,8 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>

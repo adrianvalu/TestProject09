@@ -12,19 +12,21 @@ public class MainPage extends BasePage {
     private String userMenuSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > button > i";
     private String userLoginSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li.authorization-link > a";
     private String userRegistrationSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li:nth-child(4) > a";
-    private String controlereSelector = "#vertical-menu-2 > li:nth-child(7) > a > span";
+    private String categoriiSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-3.col-md-3.col-xs-12 > div > div.widget.megamenu-widget.vertical-menu-widget > div";
     private String acceptCookieSelector = "#btn-cookie-allow > span";
     private String abonareErrSelector = "newsletter-footer-error";
 
     private String abonareSelector = "#newsletter-validate-detail-footer > div.actions > button > span";
     private String abonareInputSelector = "#newsletter-footer";
+    private String searchSelector = "search";
+
 
     public MainPage(WebDriver driver) {
         super(driver);
     }
 
-    public String getControlereText() {
-        return driver.findElement(By.cssSelector(controlereSelector)).getText();
+    public String getCategoriiText() {
+        return driver.findElement(By.cssSelector(categoriiSelector)).getText();
     }
 
     public String getab2() {
@@ -33,9 +35,9 @@ public class MainPage extends BasePage {
 
     public String getAbonareError() {
         try {
-            return driver.findElement(By.cssSelector(abonareErrSelector)).getText();
+            return driver.findElement(By.id(abonareErrSelector)).getText();
         } catch (NoSuchElementException nse) {
-            return "Introduceți o adresă email validă (Ex: johndoe@domain.com).";
+            return "";
         }
     }
 
@@ -60,11 +62,26 @@ public class MainPage extends BasePage {
 
     }
 
+    public void goToSearch() {
+        driver.findElement(By.id(searchSelector)).click();
+
+    }
+
     public void acceptCookiesPolicy() {
         driver.findElement(By.cssSelector(acceptCookieSelector)).click();
     }
 
     public void abonareNewsletter() {
         driver.findElement(By.cssSelector(abonareSelector)).click();
+    }
+
+    public void search(String itemSearch) {
+        WebElement searchInput = driver.findElement(By.id(searchSelector));
+
+        searchInput.clear();
+        searchInput.sendKeys(itemSearch);
+
+       searchInput.submit();
+
     }
 }
