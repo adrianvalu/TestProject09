@@ -13,7 +13,7 @@ public class RegistrationTests extends BaseTest {
 
     @Test
     public void registerTest () {
-        driver.get(baseUrl3);
+        driver.get(baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "Controlere");
         mp.acceptCookiesPolicy();

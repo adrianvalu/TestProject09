@@ -1,11 +1,10 @@
 package Pages.Nelbo;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+
+import java.util.concurrent.TimeUnit;
 
 public class MainPage extends BasePage {
 
@@ -68,8 +67,8 @@ public class MainPage extends BasePage {
     }
 
     public void acceptCookiesPolicy() {
-        driver.findElement(By.cssSelector(acceptCookieSelector)).click();
-    }
+            driver.findElement(By.cssSelector(acceptCookieSelector)).click();
+        }
 
     public void abonareNewsletter() {
         driver.findElement(By.cssSelector(abonareSelector)).click();

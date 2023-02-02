@@ -11,24 +11,24 @@ public class SearchTests extends BaseTest {
 
     private String countItemSelector = "#narrow-by-list > div:nth-child(1) > dd > ol > li:nth-child(3) > a > span";
 
-    @Test
+    @Test(groups = "Smoke")
     public void searchTest () {
-        driver.get(baseUrl3);
+        driver.get(baseUrl);
+        System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
-        mp.acceptCookiesPolicy();
+        //mp.acceptCookiesPolicy();
         mp.goToSearch();
         mp.search("Memorie RAM");
         SearchPage sp = new SearchPage(driver);
         Assert.assertEquals(sp.getMemoryText(), "Memorii RAM\n" + driver.findElement(By.cssSelector(countItemSelector)).getText());
     }
 
-    @Test
+    @Test(groups = "Smoke", priority = 1)
     public void negativeSearchTest () {
-        driver.get(baseUrl3);
+        driver.get(baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
-        mp.acceptCookiesPolicy();
         mp.goToSearch();
         mp.search("veveriyq");
         SearchPage sp = new SearchPage(driver);
