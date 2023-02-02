@@ -11,14 +11,15 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 
     public WebDriver driver;
-    String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
-    String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_2);
+    String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE_4);
+    //String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_2);
     String baseUrl3 = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_4);
 
 
     @BeforeTest
     public void beforeTest() {
-        driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
+        driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE_4);
+        driver.manage().window().maximize();
     }
 
     @AfterTest

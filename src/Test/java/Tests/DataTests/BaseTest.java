@@ -21,6 +21,7 @@ public class BaseTest {
     public void beforeTest() {
         System.out.println(baseUrl);
         driver = BrowserUtils.getBrowser(browser, usedConfig);
+        driver.manage().window().maximize();
         dbHostname = GenericUtils.getDBHostname(usedConfig);
         dbUser = GenericUtils.getDBUser(usedConfig);
         dbPassword = GenericUtils.getDBPassword(usedConfig);
@@ -28,8 +29,8 @@ public class BaseTest {
         dbSchema = GenericUtils.getDBSchema(usedConfig);
     }
 
-    @AfterTest
-    public void afterTest() {
-        driver.quit();
-    }
+    //@AfterTest
+    //public void afterTest() {
+       // driver.quit();
+    //}
 }

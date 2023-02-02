@@ -15,7 +15,7 @@ public class RegistrationTests extends BaseTest {
     public void registerTest () {
         driver.get(baseUrl3);
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getControlereText(), "Controlere");
+        Assert.assertEquals(mp.getCategoriiText(), "Controlere");
         mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToRegistration();
