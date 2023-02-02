@@ -16,6 +16,8 @@ public class LoginTests extends BaseTest {
     @Test(groups = "Smoke")
     public void loginTest () {
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.acceptCookiesPolicy();
@@ -29,6 +31,8 @@ public class LoginTests extends BaseTest {
     @Test
     public void abonareNewsletterTest () {
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

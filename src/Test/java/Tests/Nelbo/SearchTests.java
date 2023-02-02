@@ -14,6 +14,7 @@ public class SearchTests extends BaseTest {
     @Test(groups = "Smoke")
     public void searchTest () {
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
@@ -27,6 +28,8 @@ public class SearchTests extends BaseTest {
     @Test(groups = "Smoke", priority = 1)
     public void negativeSearchTest () {
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.goToSearch();

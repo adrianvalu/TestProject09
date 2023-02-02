@@ -47,6 +47,8 @@ public class LoginDataNelboTests extends BaseTest {
 
     private void registerActions(RegistrationModel rm) {
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
 
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
@@ -120,16 +122,17 @@ public class LoginDataNelboTests extends BaseTest {
     private void loginActions(LoginModel lm) {
 
         driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
 
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
-        //mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToLogin();
         LoginPage loginPage = new LoginPage(driver);
         Assert.assertEquals(loginPage.getLoginPageText(), "Conectare client");
 //         login
-        loginPage.login(lm.getAccount().getUsername(), lm.getAccount().getPassword());
+        loginPage.loginDataInput(lm.getAccount().getUsername(), lm.getAccount().getPassword());
 
         String expectedUsernameErr = lm.getUserError();
         String expectedPassErr = lm.getPasswordError();
