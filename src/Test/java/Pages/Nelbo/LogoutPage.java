@@ -11,6 +11,7 @@ public class LogoutPage extends BasePage {
     private String deconectareSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li.authorization-link > a";
     private String userMenuSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > button > i";
     private String logoutConfirmationSelector = "#maincontent > div.row > div > div.message.success > div";
+    private String incarcatoarelaptopuriSelector = "#vertical-menu-2 > li:nth-child(3) > a > span";
     public LogoutPage(WebDriver driver) {
         super(driver);
     }
@@ -37,6 +38,23 @@ public class LogoutPage extends BasePage {
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
         lp.loginAccount("elena_tiuca@yahoo.com", "test123!");
+
+    }
+
+    public void addToCart() {
+        LogoutPage lgp = new LogoutPage(driver);
+        lgp.logare();
+        lgp.goToInarcatoareLaptopuri();
+        IncarcatoareLaptopuriPage ilp = new IncarcatoareLaptopuriPage(driver);
+        Assert.assertEquals(ilp.getIncarcatoareLaptopuriPageText(), "Incarcatoare laptopuri");
+        ilp.addProductToCart();
+        CartPage cp = new CartPage(driver);
+        Assert.assertEquals(cp.getCartPageText(), "Coș de cumpărături");
+        Assert.assertEquals(cp.getAddProductConfirmationText(), "Cablu alimentare laptop tip casetofon");
+    }
+
+    public void goToInarcatoareLaptopuri() {
+        driver.findElement(By.cssSelector(incarcatoarelaptopuriSelector)).click();
 
     }
 
