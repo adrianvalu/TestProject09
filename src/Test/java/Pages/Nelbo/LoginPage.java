@@ -12,6 +12,7 @@ public class LoginPage extends BasePage {
     private String emailLoginErrorSelector = "email-error";
     private String passwordLoginErrorSelector = "pass-error";
     private String submitButtonSelector = "#send2 > span";
+    private String acceptGdprSelector = "accept_gdpr";
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -32,12 +33,22 @@ public class LoginPage extends BasePage {
         WebElement passwordInput = driver.findElement(By.id(passwordLoginInputSelector));
         WebElement submitButton = driver.findElement(By.cssSelector(submitButtonSelector));
 
+
         usernameInput.clear();
         usernameInput.sendKeys(username);
         passwordInput.clear();
         passwordInput.sendKeys(password);
 
         submitButton.submit();
+
+    }
+
+    public void loginAccount(String username, String password) {
+        WebElement acceptGdprBox = driver.findElement(By.id(acceptGdprSelector));
+        acceptGdprBox.click();
+        login(username, password);
+
+
 
     }
 

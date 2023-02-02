@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 6">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 7">
+      <change afterPath="$PROJECT_DIR$/smokeSuiteRun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstSuiteRun.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/config4.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo3.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/ExcelReader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +76,7 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.negativeSearchTest">
+  <component name="RunManager" selected="TestNG.SearchTests.searchTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -74,7 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginDataNelboTests.loginWithDBTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeSuiteRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataNelboTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -84,33 +105,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.DataTests" />
       <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataNelboTests" />
-      <option name="METHOD_NAME" value="loginWithDBTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginDataNelboTests.registerWithJsonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.DataTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DataTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DataTests.LoginDataNelboTests" />
-      <option name="METHOD_NAME" value="registerWithJsonTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.abonareNewsletterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
       <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LoginTests" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="METHOD_NAME" value="abonareNewsletterTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.negativeSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
       <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
-      <option name="METHOD_NAME" value="negativeSearchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -166,19 +167,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CourseApp" />
-      <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
+      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" />
+      <item itemvalue="TestNG.LoginDataNelboTests" />
+      <item itemvalue="TestNG.SearchTests" />
+      <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
       <item itemvalue="TestNG.SearchTests.searchTest" />
-      <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonTest" />
-      <item itemvalue="TestNG.LoginTests.loginTest" />
-      <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
         <item itemvalue="TestNG.SearchTests.searchTest" />
-        <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonTest" />
-        <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBTest" />
-        <item itemvalue="TestNG.LoginTests.loginTest" />
+        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" />
+        <item itemvalue="TestNG.SearchTests" />
+        <item itemvalue="TestNG.LoginDataNelboTests" />
+        <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674893070273</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="final project 7">
+      <created>1675104851695</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675104851695</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +391,8 @@
     <MESSAGE value="final project4" />
     <MESSAGE value="final project5" />
     <MESSAGE value="final project 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project 6" />
+    <MESSAGE value="final project 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,11 +406,6 @@
           <url>file://$PROJECT_DIR$/src/Test/java/Tests/DemoApp/BaseTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

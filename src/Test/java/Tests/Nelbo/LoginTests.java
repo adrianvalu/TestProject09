@@ -13,9 +13,9 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginTests extends BaseTest {
 
-    @Test
+    @Test(groups = "Smoke")
     public void loginTest () {
-        driver.get(baseUrl3);
+        driver.get(baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.acceptCookiesPolicy();
@@ -23,16 +23,16 @@ public class LoginTests extends BaseTest {
         mp.goToLogin();
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
+        lp.loginAccount("elena_tiuca@yahoo.com", "test123!");
     }
 
     @Test
     public void abonareNewsletterTest () {
-        driver.get(baseUrl3);
+        driver.get(baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         mp.abonareNewsletter();
-
         Assert.assertEquals(mp.getAbonareError(), "");
     }
 

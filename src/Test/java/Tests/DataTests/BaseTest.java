@@ -29,8 +29,8 @@ public class BaseTest {
         dbSchema = GenericUtils.getDBSchema(usedConfig);
     }
 
-    //@AfterTest
-    //public void afterTest() {
-       // driver.quit();
-    //}
+    @AfterTest
+    public void afterTest() {
+        driver.quit();
+    }
 }

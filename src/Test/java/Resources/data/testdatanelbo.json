@@ -1,26 +1,30 @@
 [
   {
-    "account": {
+    "accountRegister": {
+      "firstName": "",
+      "lastName": "",
       "username": "",
-      "password": ""
+      "password": "",
+      "confirmPassword": ""
     },
-    "userError": "",
-    "passwordError": "Acesta este un câmp obligatoriu."
+    "firstNameError": "Acesta este un câmp obligatoriu.",
+    "lastNameError": "Acesta este un câmp obligatoriu.",
+    "userError": "Acesta este un câmp obligatoriu.",
+    "passwordError": "Acesta este un câmp obligatoriu.",
+    "confirmPasswordError": "Acesta este un câmp obligatoriu."
   },
   {
-    "account": {
+    "accountRegister": {
+      "firstName": "john",
+      "lastName": "doe",
       "username": "",
-      "password": "test1234"
+      "password": "",
+      "confirmPassword": ""
     },
+    "firstNameError": "",
+    "lastNameError": "",
     "userError": "Acesta este un câmp obligatoriu.",
-    "passwordError": ""
-  },
-  {
-    "account": {
-      "username": "",
-      "password": ""
-    },
-    "userError": "Acesta este un câmp obligatoriu.",
-    "passwordError": "Acesta este un câmp obligatoriu."
+    "passwordError": "Acesta este un câmp obligatoriu.",
+    "confirmPasswordError": "Acesta este un câmp obligatoriu."
   }
 ]
