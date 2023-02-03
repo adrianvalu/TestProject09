@@ -12,7 +12,7 @@ public class BaseTest {
     public WebDriver driver;
     String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
-    String baseUrl3 = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_4);
+    String baseUrl3 = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
 
     @BeforeTest
     public void beforeTest() {

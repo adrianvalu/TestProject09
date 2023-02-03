@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 
     public WebDriver driver;
-    String usedConfig = ConstantUtils.CONFIG_FILE_4;
+    String usedConfig = ConstantUtils.CONFIG_FILE;
     String dbHostname, dbUser, dbSchema, dbPassword, dbPort;
     String browser = GenericUtils.getBrowserConfig(usedConfig);
     String baseUrl = GenericUtils.createBaseUrl(usedConfig);

@@ -14,8 +14,9 @@ public class RegistrationTests extends BaseTest {
     @Test
     public void registerTest () {
         driver.get(baseUrl);
+        System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
-        Assert.assertEquals(mp.getCategoriiText(), "Controlere");
+        Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToRegistration();
@@ -24,7 +25,7 @@ public class RegistrationTests extends BaseTest {
         Assert.assertEquals(cip.getRegistrationPageText(), "Creați Cont client nou");
 
         cip.clickCheckboxRegistration();
-        //cip.register();
+        cip.register("", "", "", "", "");
 
         Assert.assertEquals(cip.getFirstNameErrorText(), "Acesta este un câmp obligatoriu.");
         Assert.assertEquals(cip.getLastNameErrorText(), "Acesta este un câmp obligatoriu.");

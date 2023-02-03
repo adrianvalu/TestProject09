@@ -11,13 +11,13 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 
     public WebDriver driver;
-    String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE_4);
-    String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE_4);
+    String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
+    String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
 
 
     @BeforeTest(groups = "Smoke")
     public void beforeTest() {
-        driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE_4);
+        driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
         driver.manage().window().maximize();
     }
 
