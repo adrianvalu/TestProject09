@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 9">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/IncarcatoareLaptopuriPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LogoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -361,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675349350236</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="final project 10">
+      <created>1675372006769</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675372006769</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding SetupGuide.html" />
     <MESSAGE value="adding changes for registration.html, script.js, style.css according with homework requirements" />
     <MESSAGE value="adding 2 java_intro homeworks." />
     <MESSAGE value="course4" />
@@ -401,7 +400,8 @@
     <MESSAGE value="final project 7" />
     <MESSAGE value="final project 8" />
     <MESSAGE value="final project 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project 9" />
+    <MESSAGE value="final project 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
