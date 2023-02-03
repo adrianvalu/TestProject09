@@ -24,5 +24,16 @@
         </classes>
     </test>
 
+    <test name="product">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.Nelbo.ProductTests"/>
+        </classes>
+    </test>
+
 
 </suite>
