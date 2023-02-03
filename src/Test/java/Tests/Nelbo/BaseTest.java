@@ -23,6 +23,6 @@ public class BaseTest {
 
     @AfterTest(groups = "Smoke")
     public void afterTest() {
-    //driver.quit();
+    driver.quit();
     }
 }

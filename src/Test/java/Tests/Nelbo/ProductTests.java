@@ -27,7 +27,7 @@ public class ProductTests extends BaseTest {
 
 
     }
-    @Test(description = "verify that a product is removed from cart")
+    @Test(groups = "Smoke", description = "verify that a product is removed from cart")
     public void removeProductFromCartTest() {
 
         driver.get(baseUrl);
