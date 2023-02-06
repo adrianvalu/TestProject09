@@ -7,8 +7,17 @@
     <name>Archetype - TestProject09</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <xmlSuite>myFirstSuiteRun.xml</xmlSuite>
+        <xmlSuite>smokeSuiteRun.xml</xmlSuite>
+        <xmlSuite>regressionSuiteRun.xml</xmlSuite>
+        <xmlSuite>runWithReports.xml</xmlSuite>
+        <webdriverManagerVersion>5.3.1</webdriverManagerVersion>
         <seleniumVersion>3.141.59</seleniumVersion>
+        <lombokVersion>1.18.24</lombokVersion>
+        <junitVersion>4.13.2</junitVersion>
+        <testNgVersion>7.5</testNgVersion>
+        <extentVersion>5.0.9</extentVersion>
+        <aspectjVersion>1.9.19</aspectjVersion>
+        <allureVersion>2.20.1</allureVersion>
     </properties>
 
     <dependencies>
@@ -111,6 +120,31 @@
             <artifactId>commons-codec</artifactId>
             <version>1.15</version>
         </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentVersion}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjVersion}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allureVersion}</version>
+        </dependency>
+
 
     </dependencies>
     <build>
@@ -132,6 +166,9 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>${xmlSuite}</suiteXmlFile>
                     </suiteXmlFiles>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjVersion}/aspectjweaver-${aspectjVersion}.jar"
+                    </argLine>
                 </configuration>
             </plugin>
         </plugins>

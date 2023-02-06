@@ -18,6 +18,7 @@ public class MainPage extends BasePage {
     private String abonareSelector = "#newsletter-validate-detail-footer > div.actions > button > span";
     private String abonareInputSelector = "#newsletter-footer";
     private String searchSelector = "search";
+    private String deconectareSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > div > ul > li.authorization-link > a";
 
 
     public MainPage(WebDriver driver) {
@@ -81,6 +82,11 @@ public class MainPage extends BasePage {
         searchInput.sendKeys(itemSearch);
 
        searchInput.submit();
+
+    }
+
+    public String getDeconectareText() {
+        return driver.findElement(By.cssSelector(deconectareSelector)).getText();
 
     }
 }

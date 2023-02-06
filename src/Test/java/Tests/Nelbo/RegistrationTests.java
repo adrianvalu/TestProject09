@@ -2,6 +2,7 @@ package Tests.Nelbo;
 
 
 
+import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.RegistrationPage;
 import org.openqa.selenium.By;
@@ -25,13 +26,11 @@ public class RegistrationTests extends BaseTest {
         Assert.assertEquals(cip.getRegistrationPageText(), "Creați Cont client nou");
 
         cip.clickCheckboxRegistration();
-        cip.register("", "", "", "", "");
+        cip.register("john", "doe", "qwer@yahoo.com", "test123?", "test123?");
+        LoginPage lp = new LoginPage(driver);
+        Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
 
-        Assert.assertEquals(cip.getFirstNameErrorText(), "Acesta este un câmp obligatoriu.");
-        Assert.assertEquals(cip.getLastNameErrorText(), "Acesta este un câmp obligatoriu.");
-        Assert.assertEquals(cip.getEmailErrorText(), "Acesta este un câmp obligatoriu.");
-        Assert.assertEquals(cip.getPasswordErrorText(), "Acesta este un câmp obligatoriu.");
-        Assert.assertEquals(cip.getConfirmPasswordErrorText(), "Acesta este un câmp obligatoriu.");
+
 
     }
 }

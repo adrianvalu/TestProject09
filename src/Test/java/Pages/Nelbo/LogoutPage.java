@@ -58,5 +58,22 @@ public class LogoutPage extends BasePage {
 
     }
 
+    public void addToFavorite() {
+
+        LogoutPage lgp = new LogoutPage(driver);
+        lgp.logare();
+        lgp.goToInarcatoareLaptopuri();
+        IncarcatoareLaptopuriPage ilp = new IncarcatoareLaptopuriPage(driver);
+        Assert.assertEquals(ilp.getIncarcatoareLaptopuriPageText(), "Incarcatoare laptopuri");
+        ilp.goToProductPage();
+        ProductPage pp = new ProductPage(driver);
+        Assert.assertEquals(pp.getProductPageText(), "Cablu alimentare laptop tip casetofon");
+        pp.addProductToFavorite();
+        FavoritePage fp = new FavoritePage(driver);
+        Assert.assertEquals(fp.getFavoritePageText(), "Lista Mea de dorințe");
+        Assert.assertEquals(fp.getAddedProductNameText(), "1");
+
+    }
+
 
 }

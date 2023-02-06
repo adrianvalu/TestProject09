@@ -26,6 +26,8 @@ public class LoginTests extends BaseTest {
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
         lp.loginAccount("elena_tiuca@yahoo.com", "test123!");
+        mp.hoverButtonInteract();
+        Assert.assertEquals(mp.getDeconectareText(), "Deconectare");
     }
 
     @Test

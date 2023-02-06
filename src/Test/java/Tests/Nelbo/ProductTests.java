@@ -1,8 +1,14 @@
 package Tests.Nelbo;
 
 import Pages.Nelbo.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.concurrent.TimeUnit;
 
 public class ProductTests extends BaseTest {
 
@@ -68,8 +74,37 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(pp.getProductPageText(), "Cablu alimentare laptop tip casetofon");
         pp.addProductToFavorite();
         FavoritePage fp = new FavoritePage(driver);
-        Assert.assertEquals(fp.getAddToFavoriteConfirmationText(), "Cablu alimentare laptop tip casetofon has been added to your Wish List. Faceți click aici pentru a continua cumpărăturile.");
+        Assert.assertEquals(fp.getFavoritePageText(), "Lista Mea de dorințe");
+        Assert.assertEquals(fp.getAddedProductNameText(), "1");
+    }
 
+    @Test
+    public void removeProductFromFavoriteTest() {
+
+        driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
+        LogoutPage lgp = new LogoutPage(driver);
+        lgp.addToFavorite();
+        FavoritePage fp = new FavoritePage(driver);
+        fp.removeProductToFavorite();
+        Assert.assertEquals(fp.getRemoveText(), "Nu aveți nici un articol în lista de dorințe");
+    }
+
+    @Test
+    public void verifyTotalProductsPriceTest() {
+
+        driver.get(baseUrl);
+        System.out.println("Browser:" + browser);
+        System.out.println("BaseUrl:" + baseUrl);
+        LogoutPage lgp = new LogoutPage(driver);
+        lgp.addToCart();
+        CartPage cp = new CartPage(driver);
+        System.out.println(cp.getProductPrice());
+        cp.addOneMoreProduct();
+        cp.updateCart();
+        System.out.println(cp.getTotalPrice());
+        Assert.assertEquals(cp.getProductPrice()*2, cp.getTotalPrice());
 
     }
 }

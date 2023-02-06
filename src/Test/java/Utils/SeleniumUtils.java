@@ -48,15 +48,22 @@ public class SeleniumUtils {
         return false;
     }
 
-    public static void takeScreenshot(WebDriver driver) {
+    public static String takeScreenshot(WebDriver driver) {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        String filename = ConstantUtils.SCREENSHOT_FOLDER + "screenshot_" + timestamp.getTime() +  ".png";
         try {
             FileUtils.copyFile(screenshotFile,
-                    new File(ConstantUtils.SCREENSHOT_FOLDER + "screenshot_" + timestamp.getTime() +  ".png"));
+                    new File(filename));
         } catch (IOException e) {
             System.out.println("File could not be saved on the disk!!");
         }
+        return filename;
+    }
+
+    public static String getReportName() {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        return "extentReport_" + timestamp.getTime() + ".html";
     }
 
 

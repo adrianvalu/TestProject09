@@ -58,10 +58,10 @@ public class RegistrationPage extends BasePage {
         actions.click(checkbox).build().perform();
     }
 
-    public void register(String firstName, String lastName, String username, String password, String confirmPassword) {
+    public void register(String firstName, String lastName, String email, String password, String confirmPassword) {
         WebElement firstNameInput = driver.findElement(By.id(firstNameInputSelector));
         WebElement lastNameInput = driver.findElement(By.id(lastNameInputSelector));
-        WebElement usernameInput = driver.findElement(By.id(emailInputSelector));
+        WebElement emailInput = driver.findElement(By.id(emailInputSelector));
         WebElement passwordInput = driver.findElement(By.id(passwordInputSelector));
         WebElement confirmPasswordInput = driver.findElement(By.id(confirmPasswordInputSelector));
         WebElement submitButton = driver.findElement(By.cssSelector(registerButtonSelector));
@@ -70,8 +70,8 @@ public class RegistrationPage extends BasePage {
         firstNameInput.sendKeys(firstName);
         lastNameInput.clear();
         lastNameInput.sendKeys(lastName);
-        usernameInput.clear();
-        usernameInput.sendKeys(username);
+        emailInput.clear();
+        emailInput.sendKeys(email);
         passwordInput.clear();
         passwordInput.sendKeys(password);
         confirmPasswordInput.clear();
