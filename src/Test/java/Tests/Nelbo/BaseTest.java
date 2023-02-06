@@ -15,14 +15,14 @@ public class BaseTest {
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
 
 
-    @BeforeTest(groups = "Smoke")
+    @BeforeTest(alwaysRun = true)
     public void beforeTest() {
         driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
         driver.manage().window().maximize();
     }
 
-    @AfterTest(groups = "Smoke")
+    @AfterTest(alwaysRun = true)
     public void afterTest() {
-    driver.quit();
+    //driver.quit();
     }
 }

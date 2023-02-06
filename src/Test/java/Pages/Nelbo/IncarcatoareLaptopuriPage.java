@@ -18,7 +18,11 @@ private String incarcatoareLaptopuriPageTextSelector = "#page-title-heading > sp
 
     public void addProductToCart() {
         driver.findElement(By.cssSelector(adaugaInCosSelector)).click();
-
     }
+
+    public void goToProductPage() {
+        driver.findElement(By.cssSelector(cabluTipCasetofonSelector)).click();
+    }
+
 
     }

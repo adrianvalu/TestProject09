@@ -11,21 +11,21 @@ public class SearchTests extends BaseTest {
 
     private String countItemSelector = "#narrow-by-list > div:nth-child(1) > dd > ol > li:nth-child(3) > a > span";
 
-    @Test(groups = "Smoke", description = "verify that can search an existing product")
+    @Test(description = "verify that can search an existing product", groups = {"Smoke", "Regression"})
     public void searchTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
-        //mp.acceptCookiesPolicy();
+        mp.acceptCookiesPolicy();
         mp.goToSearch();
-        mp.search("Memorie RAM");
+        mp.search("Memorie");
         SearchPage sp = new SearchPage(driver);
-        Assert.assertEquals(sp.getMemoryText(), "Memorii RAM\n" + driver.findElement(By.cssSelector(countItemSelector)).getText());
+        Assert.assertEquals(sp.getMemoryText(), "Stick-uri memorie");
     }
 
-    @Test(groups = "Smoke", priority = 1, description = "verify that a non-existing product search return nothing ")
+    @Test(groups = "Smoke", description = "verify that a non-existing product search return nothing ")
     public void negativeSearchTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);

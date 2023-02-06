@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SearchPage extends BasePage {
 
-    private String memorySelector = "#narrow-by-list > div:nth-child(1) > dd > ol > li:nth-child(3) > a";
+    private String memorySelector = "#maincontent > div.row > div.column.main.col-lg-9.col-md-9.col-sm-12.col-xs-12.pull-right > div.search.results.mgs-instant-search > div.categories.wrapper.grid.categories-grid > ol > li > div > div > strong > a";
     private String countItemSelector = "#narrow-by-list > div:nth-child(1) > dd > ol > li:nth-child(3) > a > span";
     private String searchErrorSelector = "#maincontent > div.row > div.column.main.col-lg-9.col-md-9.col-sm-12.col-xs-12.pull-right > div.message.notice > div";
 

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class LogoutTests extends BaseTest {
 
-    @Test
+    @Test(groups = "Regression")
     public void logoutTest () {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
