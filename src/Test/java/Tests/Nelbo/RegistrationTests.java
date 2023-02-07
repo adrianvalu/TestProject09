@@ -5,15 +5,19 @@ package Tests.Nelbo;
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.RegistrationPage;
+import Utils.ExtentTestManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Method;
+
 public class RegistrationTests extends BaseTest {
 
     @Test
-    public void registerTest () {
+    public void registerTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);

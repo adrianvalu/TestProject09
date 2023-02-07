@@ -1,6 +1,7 @@
 package Tests.Nelbo;
 
 import Pages.Nelbo.*;
+import Utils.ExtentTestManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -8,13 +9,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
 public class ProductTests extends BaseTest {
 
     @Test(description = "verify that a product is add to cart", groups = "Regression")
-    public void addProductToCartTest() {
-
+    public void addProductToCartTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -28,12 +30,10 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(cp.getCartPageText(), "Coș de cumpărături");
         Assert.assertEquals(cp.getAddProductConfirmationText(), "Cablu alimentare laptop tip casetofon");
 
-
-
     }
     @Test(groups = "Smoke", description = "verify that a product is removed from cart")
-    public void removeProductFromCartTest() {
-
+    public void removeProductFromCartTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -46,8 +46,8 @@ public class ProductTests extends BaseTest {
     }
 
     @Test(description = "verify that cart is emptied")
-    public void emptyCartTest() {
-
+    public void emptyCartTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -59,8 +59,8 @@ public class ProductTests extends BaseTest {
     }
 
     @Test
-    public void addProductToFavoriteTest() {
-
+    public void addProductToFavoriteTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -79,8 +79,8 @@ public class ProductTests extends BaseTest {
     }
 
     @Test
-    public void removeProductFromFavoriteTest() {
-
+    public void removeProductFromFavoriteTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -92,8 +92,8 @@ public class ProductTests extends BaseTest {
     }
 
     @Test
-    public void verifyTotalProductsPriceTest() {
-
+    public void verifyTotalProductsPriceTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

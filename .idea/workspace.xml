@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 13">
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests/LoginDataNelboTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginDataNelboTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 14">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlSuiteWithParamters.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginDataNelboTests.registerWithJsonNegativeTest">
+  <component name="RunManager" selected="TestNG.ProductTests.addProductToFavoriteTest">
     <configuration name="CourseApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
       <module name="TestProject09" />
@@ -103,24 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.abonareNewsletterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LoginTests" />
-      <option name="METHOD_NAME" value="abonareNewsletterTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LogoutTests.logoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
@@ -132,6 +115,24 @@
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
       <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LogoutTests" />
       <option name="METHOD_NAME" value="logoutTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTests.addProductToFavoriteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.ProductTests" />
+      <option name="METHOD_NAME" value="addProductToFavoriteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,17 +162,17 @@
       <item itemvalue="Application.CourseApp" />
       <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBNegativeTest" />
       <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonNegativeTest" />
-      <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
       <item itemvalue="TestNG.LogoutTests.logoutTest" />
+      <item itemvalue="TestNG.ProductTests.addProductToFavoriteTest" />
       <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProductTests.addProductToFavoriteTest" />
         <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonNegativeTest" />
         <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
         <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBNegativeTest" />
         <item itemvalue="TestNG.LogoutTests.logoutTest" />
-        <item itemvalue="TestNG.LoginTests.abonareNewsletterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675774508577</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="final project 14">
+      <created>1675774908319</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675774908320</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="course4 Java methods homework" />
     <MESSAGE value="course4 Java methods homework2" />
     <MESSAGE value="&#10;Course05 - Java Inheritance, overriding, polymorphism" />
     <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
@@ -434,7 +441,8 @@
     <MESSAGE value="final project 11" />
     <MESSAGE value="final project 12" />
     <MESSAGE value="final project 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project 13" />
+    <MESSAGE value="final project 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
