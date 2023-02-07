@@ -6,13 +6,15 @@ import Pages.Nelbo.SearchPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import Utils.ExtentTestManager;
+import java.lang.reflect.Method;
 
 public class SearchTests extends BaseTest {
 
-    private String countItemSelector = "#narrow-by-list > div:nth-child(1) > dd > ol > li:nth-child(3) > a > span";
 
-    @Test(description = "verify that can search an existing product", groups = {"Smoke", "Regression"})
-    public void searchTest() {
+    @Test(description = "verify that can search an existing product", groups = {"Search", "Regression"})
+    public void searchTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -25,8 +27,9 @@ public class SearchTests extends BaseTest {
         Assert.assertEquals(sp.getMemoryText(), "Stick-uri memorie");
     }
 
-    @Test(groups = "Smoke", description = "verify that a non-existing product search return nothing ")
-    public void negativeSearchTest() {
+    @Test(description = "verify that a non-existing product search return nothing ", groups = "Search")
+    public void negativeSearchTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

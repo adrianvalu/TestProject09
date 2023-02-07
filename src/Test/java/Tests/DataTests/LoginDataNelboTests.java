@@ -5,6 +5,7 @@ import Pages.Nelbo.MainPage;
 import Pages.Nelbo.RegistrationPage;
 import Tests.ObjectModels.LoginModel;
 import Tests.ObjectModels.RegistrationModel;
+import Utils.ExtentTestManager;
 import Utils.Tools;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.Assert;
@@ -13,6 +14,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -36,7 +38,8 @@ public class LoginDataNelboTests extends BaseTest {
     }
 
     @Test(dataProvider = "jsonDp")
-    public void registerWithJsonTest(RegistrationModel rm) {
+    public void registerWithJsonNegativeTest(RegistrationModel rm, Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         printDataRegistration(rm);
         registerActions(rm);
     }
@@ -110,7 +113,8 @@ public class LoginDataNelboTests extends BaseTest {
     }
 
     @Test(dataProvider = "SQLdp")
-    public void loginWithDBTest(LoginModel lm) {
+    public void loginWithDBNegativeTest(LoginModel lm, Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         printDataLogin(lm);
         loginActions(lm);
     }

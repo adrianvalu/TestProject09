@@ -2,6 +2,7 @@ package Tests.Nelbo;
 
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
+import Utils.ExtentTestManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,12 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests extends BaseTest {
 
     @Test(groups = "Smoke")
-    public void loginTest () {
+    public void loginPositiveTest (Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -31,14 +34,15 @@ public class LoginTests extends BaseTest {
     }
 
     @Test
-    public void abonareNewsletterTest () {
+    public void abonareNewsletterTest (Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        mp.abonareNewsletter();
+        mp.abonareNewsletter("test@erty.com");
         Assert.assertEquals(mp.getAbonareError(), "");
     }
 

@@ -71,8 +71,14 @@ public class MainPage extends BasePage {
             driver.findElement(By.cssSelector(acceptCookieSelector)).click();
         }
 
-    public void abonareNewsletter() {
-        driver.findElement(By.cssSelector(abonareSelector)).click();
+    public void abonareNewsletter(String email) {
+        WebElement emailInput = driver.findElement(By.cssSelector(abonareInputSelector));
+
+        emailInput.clear();
+        emailInput.sendKeys(email);
+
+        emailInput.submit();
+
     }
 
     public void search(String itemSearch) {
