@@ -25,8 +25,10 @@ import java.io.IOException;
 public class BaseTest {
 
     public WebDriver driver;
+    String usedConfig = ConstantUtils.CONFIG_FILE;
     String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
+    String dbHostname, dbUser, dbSchema, dbPassword, dbPort;
     Base64 base64 = new Base64();
     ExtentTest test;
 
@@ -35,6 +37,11 @@ public class BaseTest {
     public void beforeTest() {
         driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
         driver.manage().window().maximize();
+        dbHostname = GenericUtils.getDBHostname(usedConfig);
+        dbUser = GenericUtils.getDBUser(usedConfig);
+        dbPassword = GenericUtils.getDBPassword(usedConfig);
+        dbPort = GenericUtils.getDBPort(usedConfig);
+        dbSchema = GenericUtils.getDBSchema(usedConfig);
     }
 
     @AfterMethod

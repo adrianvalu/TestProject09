@@ -1,4 +1,4 @@
-package Tests.DataTests;
+package Tests.Nelbo;
 
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
