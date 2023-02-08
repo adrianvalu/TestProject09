@@ -26,16 +26,23 @@ public class BaseTest {
 
     public WebDriver driver;
     String usedConfig = ConstantUtils.CONFIG_FILE;
-    String browser = GenericUtils.getBrowserConfig(ConstantUtils.CONFIG_FILE);
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
     String dbHostname, dbUser, dbSchema, dbPassword, dbPort;
     Base64 base64 = new Base64();
     ExtentTest test;
+    String browser;
 
 
     @BeforeTest(alwaysRun = true)
     public void beforeTest() {
-        driver = BrowserUtils.getBrowser(browser, ConstantUtils.CONFIG_FILE);
+        System.out.println(baseUrl);
+        browser = System.getProperty("browser");
+        if (browser == null)
+            //default value
+            browser = GenericUtils.getBrowserConfig(usedConfig);
+
+        System.out.println("Used browser:" + browser);
+        driver = BrowserUtils.getBrowser(browser,usedConfig);
         driver.manage().window().maximize();
         dbHostname = GenericUtils.getDBHostname(usedConfig);
         dbUser = GenericUtils.getDBUser(usedConfig);

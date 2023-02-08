@@ -22,7 +22,7 @@ public class SeleniumUtils {
     public static Boolean waitForTextOnSite(WebDriver driver, By locator, int timeout, String pattern) {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
         Pattern patt = Pattern.compile(pattern);
-        return wait.until(ExpectedConditions.textMatches(locator,patt));
+        return wait.until(ExpectedConditions.textMatches(locator, patt));
     }
 
     public static void printCookies(WebDriver driver) {
@@ -40,7 +40,7 @@ public class SeleniumUtils {
 
     public static boolean checkIfCookieExistsByName(WebDriver driver, String cookieName) {
         Set<Cookie> cookies = driver.manage().getCookies();
-        for (Cookie c:cookies) {
+        for (Cookie c : cookies) {
             if (c.getName().equalsIgnoreCase(cookieName)) {
                 return true;
             }
@@ -50,8 +50,8 @@ public class SeleniumUtils {
 
     public static String takeScreenshot(WebDriver driver) {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-        File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String filename = ConstantUtils.SCREENSHOT_FOLDER + "screenshot_" + timestamp.getTime() +  ".png";
+        File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String filename = ConstantUtils.SCREENSHOT_FOLDER + "screenshot_" + timestamp.getTime() + ".png";
         try {
             FileUtils.copyFile(screenshotFile,
                     new File(filename));

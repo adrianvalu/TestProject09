@@ -5,10 +5,10 @@ import lombok.Getter;
 import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 
-@Getter @Setter
+@Getter
+@Setter
 public class Browser {
 
     public WebDriver driver;
-
 
 }

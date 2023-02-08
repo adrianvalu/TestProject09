@@ -10,8 +10,6 @@ public class SearchPage extends BasePage {
     private String searchErrorSelector = "#maincontent > div.row > div.column.main.col-lg-9.col-md-9.col-sm-12.col-xs-12.pull-right > div.message.notice > div";
 
 
-
-
     public String getMemoryText() {
         return driver.findElement(By.cssSelector(memorySelector)).getText();
 
@@ -21,8 +19,6 @@ public class SearchPage extends BasePage {
         return driver.findElement(By.cssSelector(searchErrorSelector)).getText();
 
     }
-
-
 
 
     public SearchPage(WebDriver driver) {

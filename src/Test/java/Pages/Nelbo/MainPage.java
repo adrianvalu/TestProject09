@@ -68,8 +68,8 @@ public class MainPage extends BasePage {
     }
 
     public void acceptCookiesPolicy() {
-            driver.findElement(By.cssSelector(acceptCookieSelector)).click();
-        }
+        driver.findElement(By.cssSelector(acceptCookieSelector)).click();
+    }
 
     public void abonareNewsletter(String email) {
         WebElement emailInput = driver.findElement(By.cssSelector(abonareInputSelector));
@@ -87,8 +87,7 @@ public class MainPage extends BasePage {
         searchInput.clear();
         searchInput.sendKeys(itemSearch);
 
-       searchInput.submit();
-
+        searchInput.submit();
     }
 
     public String getDeconectareText() {

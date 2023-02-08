@@ -7,7 +7,7 @@
     <test name="Logout">
         <groups>
             <run>
-                <include name="Regression"/>
+                <include name="regression"/>
             </run>
         </groups>
         <classes>
@@ -18,7 +18,7 @@
     <test name="Search">
         <groups>
             <run>
-                <include name="Regression"/>
+                <include name="regression"/>
             </run>
         </groups>
         <classes>
@@ -29,7 +29,7 @@
     <test name="product">
         <groups>
             <run>
-                <include name="Regression"/>
+                <include name="regression"/>
             </run>
         </groups>
         <classes>

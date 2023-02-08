@@ -12,6 +12,7 @@ public class LogoutPage extends BasePage {
     private String userMenuSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.dropdown.dropdown-toplinks > button > i";
     private String logoutConfirmationSelector = "#maincontent > div.row > div > div.message.success > div";
     private String incarcatoarelaptopuriSelector = "#vertical-menu-2 > li:nth-child(3) > a > span";
+
     public LogoutPage(WebDriver driver) {
         super(driver);
     }
@@ -26,9 +27,11 @@ public class LogoutPage extends BasePage {
         driver.findElement(By.cssSelector(deconectareSelector)).click();
 
     }
+
     public String getLogoutConfirmationText() {
         return driver.findElement(By.cssSelector(logoutConfirmationSelector)).getText();
     }
+
     public void logare() {
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
@@ -38,7 +41,6 @@ public class LogoutPage extends BasePage {
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
         lp.loginAccount("elena_tiuca@yahoo.com", "test123!");
-
     }
 
     public void addToCart() {
@@ -72,8 +74,5 @@ public class LogoutPage extends BasePage {
         FavoritePage fp = new FavoritePage(driver);
         Assert.assertEquals(fp.getFavoritePageText(), "Lista Mea de dorințe");
         Assert.assertEquals(fp.getAddedProductNameText(), "1");
-
     }
-
-
 }

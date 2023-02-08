@@ -17,5 +17,4 @@ public class ExtentManager {
         extentReports.setSystemInfo("OS VERSION", System.getProperty("os.version"));
         return extentReports;
     }
-
 }

@@ -47,23 +47,24 @@ public class GenericUtils {
         return Boolean.parseBoolean(ConfigUtils.getGenericValue(configFile, "headlessMode", "false"));
 
     }
-    public static String getDBHostname(String configFile){
+
+    public static String getDBHostname(String configFile) {
         return ConfigUtils.getGenericValue(configFile, "dbHostname", "");
     }
 
-    public static String getDBUser(String configFile){
+    public static String getDBUser(String configFile) {
         return ConfigUtils.getGenericValue(configFile, "dbUser", "");
     }
 
-    public static String getDBPassword(String configFile){
+    public static String getDBPassword(String configFile) {
         return ConfigUtils.getGenericValue(configFile, "dbPassword", "");
     }
 
-    public static String getDBPort(String configFile){
+    public static String getDBPort(String configFile) {
         return ConfigUtils.getGenericValue(configFile, "dbPort", "3306");
     }
 
-    public static String getDBSchema(String configFile){
+    public static String getDBSchema(String configFile) {
         return ConfigUtils.getGenericValue(configFile, "dbSchema", "");
     }
 

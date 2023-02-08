@@ -8,7 +8,7 @@
     <test name="Login">
         <groups>
             <run>
-                <include name="Smoke"/>
+                <include name="smoke"/>
             </run>
         </groups>
         <classes>
@@ -19,7 +19,7 @@
     <test name="product">
         <groups>
             <run>
-                <include name="Smoke"/>
+                <include name="smoke"/>
             </run>
         </groups>
         <classes>

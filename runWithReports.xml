@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Final Project">
+<suite name="Search suite">
     <listeners>
         <listener class-name="Utils.ExtentTestListener"></listener>
     </listeners>
-    <test name="Search Tests">
+    <test name="testtest">
         <groups>
             <run>
-                <include name="Search"/>
+                <include name="search"/>
             </run>
         </groups>
         <classes>

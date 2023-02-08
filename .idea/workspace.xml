@@ -4,11 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 14">
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 15">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regressionSuiteRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regressionSuiteRun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runWithReports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runWithReports.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smokeSuiteRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smokeSuiteRun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/FavoritePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/IncarcatoareLaptopuriPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/IncarcatoareLaptopuriPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LogoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/LogoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginDataNelboTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginDataNelboTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LogoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LogoutTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlSuiteWithParamters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/ObjectModels/AccountRegistrationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/ObjectModels/AccountRegistrationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/ObjectModels/RegistrationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/ObjectModels/RegistrationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/AllureTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/AllureTestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ChromeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/EdgeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/EdgeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/ExtentTestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/FirefoxBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/FirefoxBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/GenericUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/GenericUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Utils/SeleniumUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,70 +90,47 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductTests.addProductToFavoriteTest">
-    <configuration name="CourseApp" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.siit.course.Course03" />
+  <component name="RunManager" selected="TestNG.SearchTests.searchProductTest">
+    <configuration type="TestNG" nameIsGenerated="true">
       <module name="TestProject09" />
-      <option name="PROGRAM_PARAMETERS" value="1996 + 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginDataNelboTests.loginWithDBNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DataTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LoginDataNelboTests" />
-      <option name="METHOD_NAME" value="loginWithDBNegativeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginDataNelboTests.registerWithJsonNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/calibra/IdeaProjects/FinalProject/runWithReports.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.DataTests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LoginDataNelboTests" />
-      <option name="METHOD_NAME" value="registerWithJsonNegativeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runWithReports.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=edge" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTests.logoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.Nelbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.LogoutTests" />
-      <option name="METHOD_NAME" value="logoutTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductTests.addProductToFavoriteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductTests.removeProductFromFavoriteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
       <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.ProductTests" />
-      <option name="METHOD_NAME" value="addProductToFavoriteTest" />
+      <option name="METHOD_NAME" value="removeProductFromFavoriteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.negativeSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +158,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
       <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
-      <option name="METHOD_NAME" value="negativeSearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.negativeSearchProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
+      <option name="METHOD_NAME" value="negativeSearchProductTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=edge" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.searchProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
+      <option name="METHOD_NAME" value="searchProductTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,20 +213,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CourseApp" />
-      <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBNegativeTest" />
-      <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonNegativeTest" />
-      <item itemvalue="TestNG.LogoutTests.logoutTest" />
-      <item itemvalue="TestNG.ProductTests.addProductToFavoriteTest" />
-      <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
+      <item itemvalue="TestNG.SearchTests.searchProductTest" />
+      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/runWithReports.xml" />
+      <item itemvalue="TestNG.ProductTests.removeProductFromFavoriteTest" />
+      <item itemvalue="TestNG.SearchTests" />
+      <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductTests.addProductToFavoriteTest" />
-        <item itemvalue="TestNG.LoginDataNelboTests.registerWithJsonNegativeTest" />
-        <item itemvalue="TestNG.SearchTests.negativeSearchTest" />
-        <item itemvalue="TestNG.LoginDataNelboTests.loginWithDBNegativeTest" />
-        <item itemvalue="TestNG.LogoutTests.logoutTest" />
+        <item itemvalue="TestNG.SearchTests.searchProductTest" />
+        <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
+        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/runWithReports.xml" />
+        <item itemvalue="TestNG.SearchTests" />
+        <item itemvalue="TestNG.ProductTests.removeProductFromFavoriteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -456,11 +509,6 @@
           <url>file://$PROJECT_DIR$/src/Test/java/Tests/DemoApp/BaseTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Pages/Nelbo/FavoritePage.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

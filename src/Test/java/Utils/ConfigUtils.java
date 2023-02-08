@@ -13,8 +13,7 @@ public class ConfigUtils {
             Properties appProp = new Properties();
             appProp.load(Files.newInputStream(Paths.get(configFile)));
             outValue = appProp.getProperty(property);
-        }
-        catch(Exception ex) {
+        } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
         return outValue;

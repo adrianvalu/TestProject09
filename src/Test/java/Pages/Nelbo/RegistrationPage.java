@@ -78,7 +78,6 @@ public class RegistrationPage extends BasePage {
         confirmPasswordInput.sendKeys(confirmPassword);
 
         submitButton.submit();
-
     }
 
     public boolean checkErr(String expectedErr, String errorType) {

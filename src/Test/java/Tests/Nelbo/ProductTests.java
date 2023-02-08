@@ -2,15 +2,10 @@ package Tests.Nelbo;
 
 import Pages.Nelbo.*;
 import Utils.ExtentTestManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
-import java.util.concurrent.TimeUnit;
 
 public class ProductTests extends BaseTest {
 
@@ -31,7 +26,8 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(cp.getAddProductConfirmationText(), "Cablu alimentare laptop tip casetofon");
 
     }
-    @Test(groups = "Smoke", description = "verify that a product is removed from cart")
+
+    @Test(groups = "smoke", description = "verify that a product is removed from cart")
     public void removeProductFromCartTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
@@ -104,7 +100,7 @@ public class ProductTests extends BaseTest {
         cp.addOneMoreProduct();
         cp.updateCart();
         System.out.println(cp.getTotalPrice());
-        Assert.assertEquals(cp.getProductPrice()*2, cp.getTotalPrice());
+        Assert.assertEquals(cp.getProductPrice() * 2, cp.getTotalPrice());
 
     }
 }

@@ -80,7 +80,7 @@ public class RegistrationModel {
     public String toString() {
         return "RegisterData{" + "accountRegister={firstName:" + accountRegister.getFirstName() +
                 ",lastName:" + accountRegister.getLastName() + ",username:" + accountRegister.getUsername() +
-                ",password:" + accountRegister.getPassword() + ",confirmPassword:" + accountRegister.getConfirmPassword() +  "}, " +
+                ",password:" + accountRegister.getPassword() + ",confirmPassword:" + accountRegister.getConfirmPassword() + "}, " +
                 "firstNameError='" + firstNameError + '\'' + ", lastNameError='" + lastNameError + '\'' + ", userError='" +
                 userError + '\'' + ", passwordError='" + passwordError + '\'' + ", confirmPasswordError='" + confirmPasswordError + '\'' + '}';
     }

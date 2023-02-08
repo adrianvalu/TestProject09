@@ -1,11 +1,11 @@
 package Tests.ObjectModels;
 
 public class AccountRegistrationModel {
-        private String firstName;
-        private String lastName;
-        private String username;
-        private String password;
-        private String confirmPassword;
+    private String firstName;
+    private String lastName;
+    private String username;
+    private String password;
+    private String confirmPassword;
 
     public String getFirstName() {
         return firstName;

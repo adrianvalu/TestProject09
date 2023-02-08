@@ -3,20 +3,15 @@ package Tests.Nelbo;
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Utils.ExtentTestManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
-import java.util.concurrent.TimeUnit;
 
 public class LoginTests extends BaseTest {
 
-    @Test(groups = "Smoke")
-    public void loginPositiveTest (Method method) {
+    @Test(groups = "smoke")
+    public void loginPositiveTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
@@ -34,7 +29,7 @@ public class LoginTests extends BaseTest {
     }
 
     @Test
-    public void abonareNewsletterTest (Method method) {
+    public void abonareNewsletterTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
@@ -45,6 +40,5 @@ public class LoginTests extends BaseTest {
         mp.abonareNewsletter("test@erty.com");
         Assert.assertEquals(mp.getAbonareError(), "");
     }
-
 
 }

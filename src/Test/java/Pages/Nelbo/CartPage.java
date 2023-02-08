@@ -15,6 +15,7 @@ public class CartPage extends BasePage {
     private String updateCartButtonSelector = "#form-validate > div.cart.main.actions > button.action.update.btn.btn-default > span";
 
     private String totalPriceSelector = "#shopping-cart-table > tbody > tr > td.col.subtotal > span > span > span";
+
     public CartPage(WebDriver driver) {
         super(driver);
     }
@@ -43,7 +44,7 @@ public class CartPage extends BasePage {
     public double getProductPrice() {
 
         String productPriceText = driver.findElement(By.cssSelector(productPriceSelector)).getText();
-        String priceText =  productPriceText.substring(0, productPriceText.length() - 4);
+        String priceText = productPriceText.substring(0, productPriceText.length() - 4);
         double productPrice = Double.parseDouble(priceText.replace(",", "."));
         return productPrice;
     }
@@ -59,11 +60,8 @@ public class CartPage extends BasePage {
     public double getTotalPrice() {
 
         String totalProductPriceText = driver.findElement(By.cssSelector(totalPriceSelector)).getText();
-        String totalPriceText =  totalProductPriceText.substring(0, totalProductPriceText.length() - 4);
+        String totalPriceText = totalProductPriceText.substring(0, totalProductPriceText.length() - 4);
         double totalPrice = Double.parseDouble(totalPriceText.replace(",", "."));
         return totalPrice;
     }
-
-
-
 }

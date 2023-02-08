@@ -1,13 +1,10 @@
 package Tests.Nelbo;
 
 
-
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.RegistrationPage;
 import Utils.ExtentTestManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -33,8 +30,5 @@ public class RegistrationTests extends BaseTest {
         cip.register("john", "doe", "qwer@yahoo.com", "test123?", "test123?");
         LoginPage lp = new LoginPage(driver);
         Assert.assertEquals(lp.getLoginPageText(), "Conectare client");
-
-
-
     }
 }

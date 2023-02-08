@@ -3,7 +3,6 @@ package Tests.Nelbo;
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.SearchPage;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Utils.ExtentTestManager;
@@ -12,9 +11,9 @@ import java.lang.reflect.Method;
 public class SearchTests extends BaseTest {
 
 
-    @Test(description = "verify that can search an existing product", groups = {"Search", "Regression"})
-    public void searchTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+    @Test(description = "verify that you can search an existing product", groups = {"search", "regression"})
+    public void searchProductTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can search an existing product");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -27,9 +26,9 @@ public class SearchTests extends BaseTest {
         Assert.assertEquals(sp.getMemoryText(), "Stick-uri memorie");
     }
 
-    @Test(description = "verify that a non-existing product search return nothing ", groups = "Search")
-    public void negativeSearchTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+    @Test(description = "verify that a non-existing product search return nothing")
+    public void negativeSearchProductTest(Method method) {
+        test = ExtentTestManager.startTest(method.getName(), "verify that a non-existing product search return nothing");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

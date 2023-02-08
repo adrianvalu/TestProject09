@@ -7,7 +7,8 @@ public class IncarcatoareLaptopuriPage extends BasePage {
 
     private String cabluTipCasetofonSelector = "#product-wrapper > ol > li:nth-child(1) > div.product.details.product-item-details > h5 > a";
     private String adaugaInCosSelector = "#product-wrapper > ol > li:nth-child(1) > div.product.details.product-item-details > div:nth-child(3) > form > button > span.text";
-private String incarcatoareLaptopuriPageTextSelector = "#page-title-heading > span";
+    private String incarcatoareLaptopuriPageTextSelector = "#page-title-heading > span";
+
     public IncarcatoareLaptopuriPage(WebDriver driver) {
         super(driver);
     }
@@ -24,5 +25,4 @@ private String incarcatoareLaptopuriPageTextSelector = "#page-title-heading > sp
         driver.findElement(By.cssSelector(cabluTipCasetofonSelector)).click();
     }
 
-
-    }
+}

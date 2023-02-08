@@ -151,8 +151,4 @@ public class LoginDataNelboTests extends BaseTest {
     private String getEscapedElement(ResultSet resultSet, String element) throws SQLException {
         return Tools.replaceElements(resultSet.getString(element), "''", "");
     }
-
-
-
-
 }

@@ -21,6 +21,7 @@ public class LoginPage extends BasePage {
     public String getLoginPageText() {
         return driver.findElement(By.cssSelector(loginPageTextSelector)).getText();
     }
+
     public String getEmailLoginErrorText() {
         return driver.findElement(By.id(emailLoginErrorSelector)).getText();
     }
@@ -28,11 +29,11 @@ public class LoginPage extends BasePage {
     public String getPasswordLoginErrorText() {
         return driver.findElement(By.id(passwordLoginErrorSelector)).getText();
     }
+
     public void loginDataInput(String username, String password) {
         WebElement usernameInput = driver.findElement(By.id(emailLoginInputSelector));
         WebElement passwordInput = driver.findElement(By.id(passwordLoginInputSelector));
         WebElement submitButton = driver.findElement(By.cssSelector(submitButtonSelector));
-
 
         usernameInput.clear();
         usernameInput.sendKeys(username);
@@ -47,9 +48,6 @@ public class LoginPage extends BasePage {
         WebElement acceptGdprBox = driver.findElement(By.id(acceptGdprSelector));
         acceptGdprBox.click();
         loginDataInput(username, password);
-
-
-
     }
 
     public boolean checkErr(String expectedErr, String errorType) {
