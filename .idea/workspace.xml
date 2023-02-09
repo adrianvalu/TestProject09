@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 17" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -413,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675955133406</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="final project 18">
+      <created>1675955228876</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675955228876</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Course06 - Interfaces, Collections" />
     <MESSAGE value="&#10;Java Building Homework" />
     <MESSAGE value="Course07 - Exceptions, JUnit" />
     <MESSAGE value="Course08 - testNG" />
@@ -453,7 +459,8 @@
     <MESSAGE value="final project 14" />
     <MESSAGE value="final project 16" />
     <MESSAGE value="final project 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project 17" />
+    <MESSAGE value="final project 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
