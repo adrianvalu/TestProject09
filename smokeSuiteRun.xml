@@ -26,6 +26,4 @@
             <class name="Tests.Nelbo.ProductTests"/>
         </classes>
     </test>
-
-
 </suite>

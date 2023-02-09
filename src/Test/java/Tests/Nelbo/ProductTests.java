@@ -96,11 +96,12 @@ public class ProductTests extends BaseTest {
         LogoutPage lgp = new LogoutPage(driver);
         lgp.addToCart();
         CartPage cp = new CartPage(driver);
-        System.out.println(cp.getProductPrice());
+        System.out.println("Product price: " + cp.getProductPrice());
         cp.addOneMoreProduct();
+        System.out.println("Product quantity: " + cp.getProductQuantity());
         cp.updateCart();
-        System.out.println(cp.getTotalPrice());
-        Assert.assertEquals(cp.getProductPrice() * 2, cp.getTotalPrice());
+        System.out.println("Total price: " + cp.getTotalPrice());
+        Assert.assertEquals(cp.getProductPrice() * cp.getProductQuantity(), cp.getTotalPrice());
 
     }
 }

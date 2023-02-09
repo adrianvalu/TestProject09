@@ -17,6 +17,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
@@ -53,13 +54,12 @@ public class BaseTest {
 
     @AfterMethod
     public void getResult(ITestResult result) {
-        test = ExtentTestManager.updateTest(test, driver, result);
+        ExtentTestManager.updateTest(test, driver, result);
     }
 
     @AfterTest(alwaysRun = true)
     public void afterTest() {
         driver.quit();
-
         ExtentTestManager.extent.flush();
     }
 }
