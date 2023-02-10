@@ -37,9 +37,9 @@ public class DataNelboTests extends BaseTest {
         return dp.iterator();
     }
 
-    @Test(dataProvider = "jsonDp")
+    @Test(dataProvider = "jsonDp", description = "verify register negative scenarios")
     public void registerWithJsonNegativeTest(RegistrationModel rm, Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify register negative scenarios");
         printDataRegistration(rm);
         registerActions(rm);
     }
@@ -112,9 +112,9 @@ public class DataNelboTests extends BaseTest {
         return dp.iterator();
     }
 
-    @Test(dataProvider = "SQLdp")
+    @Test(dataProvider = "SQLdp", description = "verify login negative scenarios")
     public void loginWithDBNegativeTest(LoginModel lm, Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify login negative scenarios");
         printDataLogin(lm);
         loginActions(lm);
     }

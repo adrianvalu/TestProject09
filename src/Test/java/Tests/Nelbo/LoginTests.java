@@ -10,9 +10,9 @@ import java.lang.reflect.Method;
 
 public class LoginTests extends BaseTest {
 
-    @Test(groups = "smoke")
+    @Test(groups = "smoke", description = "verify that you can login in account")
     public void loginPositiveTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can login in account");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -28,9 +28,9 @@ public class LoginTests extends BaseTest {
         Assert.assertEquals(mp.getDeconectareText(), "Deconectare");
     }
 
-    @Test
+    @Test(description = "verify that you can subscribe to newsletter")
     public void abonareNewsletterTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can subscribe to newsletter");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

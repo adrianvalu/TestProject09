@@ -26,5 +26,61 @@
     "userError": "Acesta este un câmp obligatoriu.",
     "passwordError": "Acesta este un câmp obligatoriu.",
     "confirmPasswordError": "Acesta este un câmp obligatoriu."
+  },
+  {
+    "accountRegister": {
+      "firstName": "john",
+      "lastName": "doe",
+      "username": "johndoe",
+      "password": "",
+      "confirmPassword": ""
+    },
+    "firstNameError": "",
+    "lastNameError": "",
+    "userError": "Introduceți o adresă email validă (Ex: johndoe@domain.com).",
+    "passwordError": "Acesta este un câmp obligatoriu.",
+    "confirmPasswordError": "Acesta este un câmp obligatoriu."
+  },
+  {
+    "accountRegister": {
+      "firstName": "john",
+      "lastName": "doe",
+      "username": "johndoe@yah.com",
+      "password": "pass123",
+      "confirmPassword": ""
+    },
+    "firstNameError": "",
+    "lastNameError": "",
+    "userError": "",
+    "passwordError": "Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.",
+    "confirmPasswordError": "Acesta este un câmp obligatoriu."
+  },
+  {
+    "accountRegister": {
+      "firstName": "john",
+      "lastName": "doe",
+      "username": "johndoe@yah.com",
+      "password": "pass1234",
+      "confirmPassword": ""
+    },
+    "firstNameError": "",
+    "lastNameError": "",
+    "userError": "",
+    "passwordError": "Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",
+    "confirmPasswordError": "Acesta este un câmp obligatoriu."
+  },
+  {
+    "accountRegister": {
+      "firstName": "john",
+      "lastName": "doe",
+      "username": "johndoe@yah.com",
+      "password": "pass123!",
+      "confirmPassword": "pas123"
+    },
+    "firstNameError": "",
+    "lastNameError": "",
+    "userError": "",
+    "passwordError": "",
+    "confirmPasswordError": "Please enter the same value again."
   }
 ]

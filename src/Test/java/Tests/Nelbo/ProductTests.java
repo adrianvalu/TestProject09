@@ -11,7 +11,7 @@ public class ProductTests extends BaseTest {
 
     @Test(description = "verify that a product is add to cart", groups = "Regression")
     public void addProductToCartTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that a product is add to cart");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -29,7 +29,7 @@ public class ProductTests extends BaseTest {
 
     @Test(groups = "smoke", description = "verify that a product is removed from cart")
     public void removeProductFromCartTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that a product is removed from cart");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -41,9 +41,9 @@ public class ProductTests extends BaseTest {
 
     }
 
-    @Test(description = "verify that cart is emptied")
+    @Test(description = "verify that cart can be emptied")
     public void emptyCartTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that cart can be emptied");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -54,9 +54,9 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(cp.getRemoveProductConfirmationText(), "Nu aveți nici un articol în coșul de cumpărături");
     }
 
-    @Test
+    @Test(description = "verify that you can add a product to favorite")
     public void addProductToFavoriteTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can add a product to favorite");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -74,9 +74,9 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(fp.getAddedProductNameText(), "1");
     }
 
-    @Test
+    @Test(description = "verify that you can remove a product from favorite")
     public void removeProductFromFavoriteTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can remove a product from favorite");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -87,9 +87,9 @@ public class ProductTests extends BaseTest {
         Assert.assertEquals(fp.getRemoveText(), "Nu aveți nici un articol în lista de dorințe");
     }
 
-    @Test
+    @Test(description = "verify that total price is correct calculated")
     public void verifyTotalProductsPriceTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that total price is correct calculated");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

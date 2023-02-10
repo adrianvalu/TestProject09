@@ -10,9 +10,9 @@ import java.lang.reflect.Method;
 
 public class LogoutTests extends BaseTest {
 
-    @Test(groups = "regression")
+    @Test(groups = "regression", description = "verify that you can logout from account")
     public void logoutTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can logout from account");
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 18" />
+    <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 19">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/Nelbo/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/DataNelboTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/DataNelboTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LogoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/LogoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/ProductTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/Nelbo/RegistrationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +41,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2FFznXUoUBLtryTZVZ2HHB6pNMU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,36 +67,7 @@
       <recent name="C:\Users\calibra\IdeaProjects\TestProject09\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductTests.verifyTotalProductsPriceTest">
-    <configuration type="TestNG" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="GROUP" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeSuiteRun.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DataNelboTests.loginWithDBNegativeTest">
     <configuration name="DataNelboTests.loginWithDBNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
@@ -120,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTests.addProductToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductTests.addProductToCartTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -140,6 +124,34 @@
     </configuration>
     <configuration name="ProductTests.verifyTotalProductsPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.Nelbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.Nelbo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.ProductTests" />
+      <option name="METHOD_NAME" value="verifyTotalProductsPriceTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.negativeSearchProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.Nelbo.*" />
@@ -147,8 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.Nelbo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.ProductTests" />
-      <option name="METHOD_NAME" value="verifyTotalProductsPriceTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Nelbo.SearchTests" />
+      <option name="METHOD_NAME" value="negativeSearchProductTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" />
       <item itemvalue="TestNG.DataNelboTests.loginWithDBNegativeTest" />
       <item itemvalue="TestNG.DataNelboTests.registerWithJsonNegativeTest" />
-      <item itemvalue="TestNG.ProductTests.addProductToCartTest" />
+      <item itemvalue="TestNG.ProductTests.addProductToCartTest (1)" />
+      <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
       <item itemvalue="TestNG.ProductTests.verifyTotalProductsPriceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductTests.verifyTotalProductsPriceTest" />
         <item itemvalue="TestNG.DataNelboTests.loginWithDBNegativeTest" />
         <item itemvalue="TestNG.DataNelboTests.registerWithJsonNegativeTest" />
-        <item itemvalue="TestNG.ProductTests.addProductToCartTest" />
-        <item itemvalue="TestNG.C:/Users/calibra/IdeaProjects/FinalProject/smokeSuiteRun.xml" />
+        <item itemvalue="TestNG.ProductTests.verifyTotalProductsPriceTest" />
+        <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
+        <item itemvalue="TestNG.ProductTests.addProductToCartTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675955228876</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="final project 19">
+      <created>1675955962016</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675955962016</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Java Building Homework" />
     <MESSAGE value="Course07 - Exceptions, JUnit" />
     <MESSAGE value="Course08 - testNG" />
     <MESSAGE value="&#10;Selenium course 1 + 2" />
@@ -460,7 +478,8 @@
     <MESSAGE value="final project 16" />
     <MESSAGE value="final project 17" />
     <MESSAGE value="final project 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project 18" />
+    <MESSAGE value="final project 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,9 +12,9 @@ import java.lang.reflect.Method;
 
 public class RegistrationTests extends BaseTest {
 
-    @Test
+    @Test(description = "verify that you can create a new account")
     public void registerTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "");
+        test = ExtentTestManager.startTest(method.getName(), "verify that you can create a new accoun");
         driver.get(baseUrl);
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
