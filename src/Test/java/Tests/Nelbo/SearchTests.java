@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 public class SearchTests extends BaseTest {
 
 
-    @Test(description = "verify that you can search an existing product", groups = {"search", "regression"})
+    @Test(description = "verify that you can search an existing product", groups = {"smoke", "regression"})
     public void searchProductTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "verify that you can search an existing product");
         driver.get(baseUrl);

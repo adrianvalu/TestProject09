@@ -5,7 +5,7 @@
         <listener class-name="Utils.ExtentTestListener"></listener>
     </listeners>
 
-    <test name="Login">
+    <test name="loginPositiveTest">
         <groups>
             <run>
                 <include name="smoke"/>
@@ -16,7 +16,7 @@
         </classes>
     </test>
 
-    <test name="product">
+    <test name="addProductToCartTest">
         <groups>
             <run>
                 <include name="smoke"/>
@@ -24,6 +24,17 @@
         </groups>
         <classes>
             <class name="Tests.Nelbo.ProductTests"/>
+        </classes>
+    </test>
+
+    <test name="searchProductTest">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.Nelbo.SearchTests"/>
         </classes>
     </test>
 </suite>

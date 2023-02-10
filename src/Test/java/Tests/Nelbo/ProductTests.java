@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 public class ProductTests extends BaseTest {
 
-    @Test(description = "verify that a product is add to cart", groups = "Regression")
+    @Test(description = "verify that a product is add to cart", groups = {"smoke"}, priority = 1)
     public void addProductToCartTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "verify that a product is add to cart");
         driver.get(baseUrl);
@@ -27,7 +27,7 @@ public class ProductTests extends BaseTest {
 
     }
 
-    @Test(groups = "smoke", description = "verify that a product is removed from cart")
+    @Test(description = "verify that a product is removed from cart", groups = "regression")
     public void removeProductFromCartTest(Method method) {
         test = ExtentTestManager.startTest(method.getName(), "verify that a product is removed from cart");
         driver.get(baseUrl);

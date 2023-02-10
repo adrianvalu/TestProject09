@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="Utils.ExtentTestListener"></listener>
     </listeners>
-    <test name="Logout">
+    <test name="logout">
         <groups>
             <run>
                 <include name="regression"/>
@@ -15,7 +15,7 @@
         </classes>
     </test>
 
-    <test name="Search">
+    <test name="searchProduct">
         <groups>
             <run>
                 <include name="regression"/>
@@ -26,7 +26,7 @@
         </classes>
     </test>
 
-    <test name="product">
+    <test name="Product">
         <groups>
             <run>
                 <include name="regression"/>
@@ -36,6 +36,5 @@
             <class name="Tests.Nelbo.ProductTests"/>
         </classes>
     </test>
-
 
 </suite>
