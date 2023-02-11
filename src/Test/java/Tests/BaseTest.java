@@ -1,4 +1,4 @@
-package Tests.Nelbo;
+package Tests;
 
 import Pages.Nelbo.MainPage;
 import Utils.BrowserUtils;

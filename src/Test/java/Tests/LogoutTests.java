@@ -1,11 +1,8 @@
-package Tests.Nelbo;
+package Tests;
 
 import Pages.Nelbo.LogoutPage;
-import Utils.ExtentTestManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.lang.reflect.Method;
 
 
 public class LogoutTests extends BaseTest {

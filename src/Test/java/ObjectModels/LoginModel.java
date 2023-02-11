@@ -1,5 +1,5 @@
 
-package Tests.ObjectModels;
+package ObjectModels;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

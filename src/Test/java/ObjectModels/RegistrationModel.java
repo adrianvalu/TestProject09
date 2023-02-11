@@ -1,4 +1,4 @@
-package Tests.ObjectModels;
+package ObjectModels;
 
 public class RegistrationModel {
 

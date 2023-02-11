@@ -1,6 +1,5 @@
-package Tests.Nelbo;
+package Tests;
 
-import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.SearchPage;
 import org.testng.Assert;

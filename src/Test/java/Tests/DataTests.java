@@ -1,10 +1,10 @@
-package Tests.Nelbo;
+package Tests;
 
 import Pages.Nelbo.LoginPage;
 import Pages.Nelbo.MainPage;
 import Pages.Nelbo.RegistrationPage;
-import Tests.ObjectModels.LoginModel;
-import Tests.ObjectModels.RegistrationModel;
+import ObjectModels.LoginModel;
+import ObjectModels.RegistrationModel;
 import Utils.ExtentTestManager;
 import Utils.Tools;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class DataNelboTests extends BaseTest {
+public class DataTests extends BaseTest {
 
     @DataProvider(name = "jsonDp")
     public Iterator<Object[]> jsonDpCollection() throws IOException {

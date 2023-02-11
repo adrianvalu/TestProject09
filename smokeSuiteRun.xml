@@ -12,7 +12,7 @@
             </run>
         </groups>
         <classes>
-            <class name="Tests.Nelbo.LoginTests"/>
+            <class name="Tests.LoginTests"/>
         </classes>
     </test>
 
@@ -23,7 +23,7 @@
             </run>
         </groups>
         <classes>
-            <class name="Tests.Nelbo.ProductTests"/>
+            <class name="Tests.ProductTests"/>
         </classes>
     </test>
 
@@ -34,7 +34,7 @@
             </run>
         </groups>
         <classes>
-            <class name="Tests.Nelbo.SearchTests"/>
+            <class name="Tests.SearchTests"/>
         </classes>
     </test>
 </suite>
