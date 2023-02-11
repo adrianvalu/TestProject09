@@ -1,10 +1,7 @@
-package Pages.Nelbo;
+package Pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
-
-import java.util.concurrent.TimeUnit;
 
 public class MainPage extends BasePage {
 

@@ -1,7 +1,7 @@
 package Tests;
 
-import Pages.Nelbo.LoginPage;
-import Pages.Nelbo.MainPage;
+import Pages.LoginPage;
+import Pages.MainPage;
 import Utils.ExtentTestManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;

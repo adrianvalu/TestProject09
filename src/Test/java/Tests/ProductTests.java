@@ -1,6 +1,6 @@
 package Tests;
 
-import Pages.Nelbo.*;
+import Pages.*;
 import Utils.ExtentTestManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,7 +1,7 @@
 package Tests;
 
-import Pages.Nelbo.MainPage;
-import Pages.Nelbo.SearchPage;
+import Pages.MainPage;
+import Pages.SearchPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import Utils.ExtentTestManager;

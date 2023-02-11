@@ -1,4 +1,4 @@
-package Pages.Nelbo;
+package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +13,7 @@ public class CartPage extends BasePage {
     private String productPriceSelector = "#shopping-cart-table > tbody > tr > td.col.price > span > span > span";
     private String addOneMoreProductSelector = "#shopping-cart-table > tbody > tr > td.col.qty > div > div > span.edit-qty.plus";
     private String updateCartButtonSelector = "#form-validate > div.cart.main.actions > button.action.update.btn.btn-default > span";
-    private String quantitySelector = "cart-3810-qty";
+    private String quantitySelector = "cart-3817-qty";
     private String totalPriceSelector = "#shopping-cart-table > tbody > tr > td.col.subtotal > span > span > span";
 
     public CartPage(WebDriver driver) {

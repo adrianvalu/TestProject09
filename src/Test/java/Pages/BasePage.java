@@ -1,4 +1,4 @@
-package Pages.Nelbo;
+package Pages;
 
 import org.openqa.selenium.WebDriver;
 

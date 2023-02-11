@@ -1,6 +1,6 @@
 package Tests;
 
-import Pages.Nelbo.LogoutPage;
+import Pages.LogoutPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
