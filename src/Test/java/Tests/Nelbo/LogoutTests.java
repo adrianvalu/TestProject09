@@ -11,8 +11,7 @@ import java.lang.reflect.Method;
 public class LogoutTests extends BaseTest {
 
     @Test(groups = "regression", description = "verify that you can logout from account")
-    public void logoutTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify that you can logout from account");
+    public void logoutTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

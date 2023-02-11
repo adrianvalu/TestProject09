@@ -12,8 +12,7 @@ public class SearchTests extends BaseTest {
 
 
     @Test(description = "verify that you can search an existing product", groups = {"smoke", "regression"})
-    public void searchProductTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify that you can search an existing product");
+    public void searchProductTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);

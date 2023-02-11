@@ -10,8 +10,7 @@ import java.lang.reflect.Method;
 public class ProductTests extends BaseTest {
 
     @Test(description = "verify that a product is add to cart", groups = {"smoke"}, priority = 1)
-    public void addProductToCartTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify that a product is add to cart");
+    public void addProductToCartTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -28,8 +27,7 @@ public class ProductTests extends BaseTest {
     }
 
     @Test(description = "verify that a product is removed from cart", groups = "regression")
-    public void removeProductFromCartTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify that a product is removed from cart");
+    public void removeProductFromCartTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
@@ -55,8 +53,7 @@ public class ProductTests extends BaseTest {
     }
 
     @Test(description = "verify that you can add a product to favorite")
-    public void addProductToFavoriteTest(Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify that you can add a product to favorite");
+    public void addProductToFavoriteTest() {
         driver.get(baseUrl);
         System.out.println("Browser:" + browser);
         System.out.println("BaseUrl:" + baseUrl);
