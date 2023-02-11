@@ -38,8 +38,7 @@ public class DataTests extends BaseTest {
     }
 
     @Test(dataProvider = "jsonDp", description = "verify register negative scenarios")
-    public void registerWithJsonNegativeTest(RegistrationModel rm, Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify register negative scenarios");
+    public void registerWithJsonNegativeTest(RegistrationModel rm) {
         printDataRegistration(rm);
         registerActions(rm);
     }
@@ -113,8 +112,7 @@ public class DataTests extends BaseTest {
     }
 
     @Test(dataProvider = "SQLdp", description = "verify login negative scenarios")
-    public void loginWithDBNegativeTest(LoginModel lm, Method method) {
-        test = ExtentTestManager.startTest(method.getName(), "verify login negative scenarios");
+    public void loginWithDBNegativeTest(LoginModel lm) {
         printDataLogin(lm);
         loginActions(lm);
     }

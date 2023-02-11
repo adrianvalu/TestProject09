@@ -42,11 +42,6 @@ public class BaseTest {
         dbSchema = GenericUtils.getDBSchema(usedConfig);
     }
 
-    /*@AfterMethod
-    public void getResult(ITestResult result) {
-       ExtentTestManager.updateTest(test, driver, result);
-    }*/
-
     @AfterTest(alwaysRun = true)
     public void afterTest() {
         driver.quit();
