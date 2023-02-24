@@ -9,8 +9,7 @@ public class FavoritePage extends BasePage {
     private String favoritePageTextSelector = "body > main > div > div.page-title-wrapper > div > h1 > span";
     private String addedProductNameSelector = "body > main > div > header > div.bottom-header-content > div > div > div.col-lg-9.col-md-9.col-xs-12 > div > div.table-icon-menu > div.header-wl > a > span.count-wl";
     private String removeFromFavoriteConfirmationTextSelector = "#wishlist-view-form > div.message.info.empty > span";
-    private String removeFromFavoriteButtonSelector = "#item_42 > div > div.product-item-inner > div.product-item-actions > a.btn-remove.action.delete > span > i";
-
+    private String removeFromFavoriteButtonSelector = "#item_50 > div > div.product-item-inner > div.product-item-actions > a.btn-remove.action.delete";
     public FavoritePage(WebDriver driver) {
         super(driver);
     }
@@ -28,7 +27,7 @@ public class FavoritePage extends BasePage {
     }
 
     public void removeProductToFavorite() {
-        driver.findElement(By.cssSelector(removeFromFavoriteButtonSelector)).click();
+        driver.findElement(By.id("//*[contains(text(),'Item')]")).click();
     }
 
     public String getRemoveText() {
