@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6c2dc1e-a587-4305-9f14-92f683bbd097" name="Changes" comment="final project 26">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Resources/data/logindatanelbo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataProviders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/FavoritePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Resources/data/testdatanelbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Resources/data/testdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/Tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/Tests/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTests.removeProductFromFavoriteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogoutTests.logoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ProductTests" />
-      <option name="METHOD_NAME" value="removeProductFromFavoriteTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LogoutTests" />
+      <option name="METHOD_NAME" value="logoutTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,25 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTests.verifyTotalProductsPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ProductTests" />
-      <option name="METHOD_NAME" value="verifyTotalProductsPriceTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.negativeSearchProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject09" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +135,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.SearchTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="negativeSearchProductTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.searchProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.SearchTests" />
+      <option name="METHOD_NAME" value="searchProductTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,19 +162,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.LogoutTests.logoutTest" />
+      <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
+      <item itemvalue="TestNG.SearchTests.searchProductTest" />
       <item itemvalue="TestNG.DataTests.loginWithDBNegativeTest" />
       <item itemvalue="TestNG.DataTests.registerWithJsonNegativeTest" />
-      <item itemvalue="TestNG.ProductTests.removeProductFromFavoriteTest" />
-      <item itemvalue="TestNG.ProductTests.verifyTotalProductsPriceTest" />
-      <item itemvalue="TestNG.SearchTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.DataTests.loginWithDBNegativeTest" />
         <item itemvalue="TestNG.DataTests.registerWithJsonNegativeTest" />
-        <item itemvalue="TestNG.ProductTests.removeProductFromFavoriteTest" />
-        <item itemvalue="TestNG.ProductTests.verifyTotalProductsPriceTest" />
-        <item itemvalue="TestNG.SearchTests" />
+        <item itemvalue="TestNG.SearchTests.negativeSearchProductTest" />
+        <item itemvalue="TestNG.SearchTests.searchProductTest" />
+        <item itemvalue="TestNG.LogoutTests.logoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676116930238</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="final project 26">
+      <created>1677270989702</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677270989702</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,36 +535,6 @@
           <url>file://$PROJECT_DIR$/src/Test/java/Tests/DemoApp/BaseTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/Tests/BaseTest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

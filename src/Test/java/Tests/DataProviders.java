@@ -2,7 +2,6 @@ package Tests;
 
 import ObjectModels.LoginModel;
 import ObjectModels.RegistrationModel;
-import Utils.GenericUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.annotations.DataProvider;
 
@@ -36,12 +35,6 @@ public class DataProviders extends BaseTest {
     @DataProvider(name = "SQLdp")
     public Iterator<Object[]> SQLDpCollection() {
         //        get DB connection settings
-        dbHostname = GenericUtils.getDBHostname(usedConfig);
-        dbUser = GenericUtils.getDBUser(usedConfig);
-        dbPassword = GenericUtils.getDBPassword(usedConfig);
-        dbPort = GenericUtils.getDBPort(usedConfig);
-        dbSchema = GenericUtils.getDBSchema(usedConfig);
-
         System.out.println("Use dbHostname:" + dbHostname);
         System.out.println("Use dbUser:" + dbUser);
         System.out.println("Use dbPort:" + dbPort);

@@ -32,6 +32,7 @@ public class SearchTests extends BaseTest {
         System.out.println("BaseUrl:" + baseUrl);
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
+        mp.acceptCookiesPolicy();
         mp.goToSearch();
         mp.search("veveriyq");
         SearchPage sp = new SearchPage(driver);

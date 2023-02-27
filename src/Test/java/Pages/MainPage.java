@@ -65,7 +65,10 @@ public class MainPage extends BasePage {
     }
 
     public void acceptCookiesPolicy() {
-        driver.findElement(By.cssSelector(acceptCookieSelector)).click();
+        try {
+            driver.findElement(By.cssSelector(acceptCookieSelector)).click();
+        } catch (ElementNotInteractableException nse) {
+        }
     }
 
     public void abonareNewsletter(String email) {

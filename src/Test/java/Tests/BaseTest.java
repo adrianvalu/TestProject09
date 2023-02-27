@@ -21,11 +21,11 @@ public class BaseTest {
     public WebDriver driver;
     String usedConfig = ConstantUtils.CONFIG_FILE;
     String baseUrl = GenericUtils.createBaseUrl(ConstantUtils.CONFIG_FILE);
-    String dbHostname;
-    String dbUser;
-    String dbSchema;
-    String dbPassword;
-    String dbPort;
+    static String dbHostname;
+    static String dbUser;
+    static String dbSchema;
+    static String dbPassword;
+    static String dbPort;
     Base64 base64 = new Base64();
     ExtentTest test;
     String browser;
@@ -61,6 +61,7 @@ public class BaseTest {
 
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
+        mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToRegistration();
         RegistrationPage registrationPage = new RegistrationPage(driver);
@@ -102,6 +103,7 @@ public class BaseTest {
 
         MainPage mp = new MainPage(driver);
         Assert.assertEquals(mp.getCategoriiText(), "CATEGORII");
+        mp.acceptCookiesPolicy();
         mp.hoverButtonInteract();
         mp.goToLogin();
         LoginPage loginPage = new LoginPage(driver);
